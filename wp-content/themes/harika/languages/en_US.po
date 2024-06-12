@@ -1,0 +1,4118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: هاریکا\n"
+"POT-Creation-Date: 2023-04-23 23:18+0330\n"
+"PO-Revision-Date: 2023-04-23 23:18+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:19
+#, php-format
+msgctxt "comments title"
+msgid "دیدگاه کاربران (%1$s دیدگاه)"
+msgid_plural "دیدگاه کاربران (%1$s دیدگاه)"
+msgstr[0] "User opinion (%1$s Comment)"
+msgstr[1] "User opinion (%1$s Comments)"
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: functions.php:76 includes/settings/settings-header.php:23
+#: includes/settings/settings-header.php:55
+msgid "هدر"
+msgstr "Header"
+
+#: functions.php:77 includes/settings/settings-footer.php:21
+#: includes/settings/settings-footer.php:54
+msgid "فوتر"
+msgstr "Footer"
+
+#: includes/admin-functions.php:38 includes/admin-functions.php:47
+msgid ""
+"برای اجرای قالب هاریکا مورد نیاز است که افزونه المنتور و المنتور پرو را نصب "
+"و فعال کنید!"
+msgstr ""
+"To run the Harika theme, you need to install and activate the Elementor and "
+"Elementor Pro plugins!"
+
+#: includes/admin-functions.php:40
+msgid "فعال سازی المنتور"
+msgstr "Elementor activation"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:42
+msgid "نصب المنتور"
+msgstr "install Elementor"
+
+#: includes/admin-functions.php:136
+msgid "دریافت المنتور"
+msgstr "Get Elementor"
+
+#: includes/admin-functions.php:140
+msgid "مرسی که هاریکا رو نصب کردی!"
+msgstr "Thank you for installing Harika!"
+
+#: includes/admin-functions.php:142
+msgid "اطلاعات بیشتر در رابطه با المنتور"
+msgstr "More information about Elementor"
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "این قالب به این افزونه نیاز دارد: %1$s."
+msgid_plural "این قالب به این افزونه ها نیاز دارد: %1$s."
+msgstr[0] "This theme requires this plugin: %1$s."
+msgstr[1] "This theme requires this plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "این قالب به افزونه های زیر نیاز دارد: %1$s."
+msgid_plural "این قالب به افزونه های زیر نیاز دارد: %1$s."
+msgstr[0] "This template requires the following plugin: %1$s."
+msgstr[1] "This template requires the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"افزونه زیر باید به آخرین نسخه خود به روز شود تا از حداکثر سازگاری با این "
+"قالب اطمینان حاصل شود: %1$s."
+msgid_plural ""
+"افزونه های زیر باید به آخرین نسخه خود به روز شود تا از حداکثر سازگاری با این "
+"قالب اطمینان حاصل شود: %1$s."
+msgstr[0] ""
+"The following plugin should be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[1] ""
+"The following plugins should be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "یک به روز رسانی در دسترس است برای: %1$s."
+msgid_plural "به روز رسانی هایی برای پلاگین های زیر موجود است: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "افزونه مورد نیاز زیر در حال حاضر غیرفعال است: %1$s."
+msgid_plural "افزونه های مورد نیاز زیر در حال حاضر غیر فعال هستند: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "افزونه پیشنهادی زیر در حال حاضر غیرفعال است: %1$s."
+msgid_plural "افزونه های توصیه شده زیر در حال حاضر غیرفعال هستند: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:371
+msgid "شروع به نصب افزونه"
+msgid_plural "شروع به نصب افزونه ها"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:376
+msgid "شروع به آپدیت افزونه"
+msgid_plural "شروع به آپدیت افزونه ها"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:381
+msgid "شروع به فعال سازی افزونه"
+msgid_plural "شروع به فعال سازی افزونه ها"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:385
+msgid "بازگشت به نصب کننده افزونه ها"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:386
+msgid "بازگشت به داشبورد"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:387
+msgid "افزونه های با موفقیت آپدیت شدند"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:388
+#: includes/class-tgm-plugin-activation.php:2948
+msgid "افزونه زیر با موفقیت فعال شد:"
+msgid_plural "افزونه های زیر با موفقیت فعال شدند:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "هیچ اقدامی صورت نگرفت. افزونه %1$s قبلاً فعال بود."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"افزونه فعال نشد یک نسخه بالاتر از %s برای این موضوع مورد نیاز است. لطفا "
+"افزونه را به روز کنید."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: includes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "همه افزونه ها با موفقیت نصب و فعال شدند. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+msgid "رد کردن این اعلان"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:396
+msgid ""
+"یک یا چند افزونه مورد نیاز یا توصیه شده برای نصب، به روز رسانی یا فعال سازی "
+"وجود دارد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:397
+msgid "لطفا برای راهنمایی با مدیر این سایت تماس بگیرید."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:518
+msgid "این افزونه نیاز دارد آپدیت شود تا با قالب شما سازگاری داشته باشد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:519
+#: includes/class-tgm-plugin-activation.php:2326
+msgid "نیاز به آپدیت"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:823
+#: includes/class-tgm-plugin-activation.php:2529
+#: includes/class-tgm-plugin-activation.php:3576
+msgid "بازگشت به پیشخوان"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:930
+msgid ""
+"بسته پلاگین از راه دور حاوی پوشه ای با اسلاگ مورد نظر نیست و تغییر نام کار "
+"نمی کند."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:930
+#: includes/class-tgm-plugin-activation.php:933
+msgid ""
+"لطفا با ارائه دهنده افزونه تماس بگیرید و از آنها بخواهید که افزونه خود را "
+"طبق دستورالعمل های وردپرس بسته بندی کنند."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:933
+msgid ""
+"بسته پلاگین راه دور از بیش از یک فایل تشکیل شده است، اما فایل ها در یک پوشه "
+"بسته بندی نمی شوند."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1117
+#: includes/class-tgm-plugin-activation.php:2944
+msgctxt "plugin A *and* plugin B"
+msgid "و"
+msgstr "and"
+
+#. translators: %s: version number
+#: includes/class-tgm-plugin-activation.php:1978
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/class-tgm-plugin-activation.php:2269
+msgid "الزامی - حتما نصب شود"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2272
+msgid "توصیه شده"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2288
+msgid "مخزن وردپرس"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2291
+msgid "منبع خارجی"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2294
+msgid "موجود در قالب"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2311
+msgid "نصب نشده است"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2315
+msgid "نصب شده است اما فعال نیست"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2317
+#: includes/elements/widgets/header-footer/menu.php:2781
+#: includes/elements/widgets/header-footer/menu.php:3798
+#: includes/elements/widgets/video-play-list.php:869
+#: includes/elements/widgets/video-play-list.php:1845
+msgid "فعال"
+msgstr "active"
+
+#: includes/class-tgm-plugin-activation.php:2323
+msgid "آپدیت مورد نیاز موجود نیست"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2329
+msgid "آپدیت توصیه می شود"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: includes/class-tgm-plugin-activation.php:2338
+#, php-format
+msgctxt "وضعیت نصب/آپدیت"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2384
+#, php-format
+msgctxt "plugins"
+msgid "همه <span class=\"count\">(%s)</span>"
+msgid_plural "همه <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "برای نصب <span class=\"count\">(%s)</span>"
+msgid_plural "برای نصب <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "آپدیت در دسترس <span class=\"count\">(%s)</span>"
+msgid_plural "آپدیت در دسترس <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "برای فعالسازی <span class=\"count\">(%s)</span>"
+msgid_plural "برای فعالسازی <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2478
+msgctxt "به عنوان: \"نسخه ناشناخته\""
+msgid "ناشناخته"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2486
+msgid "نسخه نصب شده:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2494
+msgid "حداقل نسخه مورد نیاز:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2506
+msgid "نسخه در دسترس:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2529
+msgid "هیچ پلاگینی برای نصب، به روز رسانی یا فعال سازی وجود ندارد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2543
+msgid "افزونه"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2544
+#: includes/elements/inc/global-widget-controls.php:24
+#: includes/elements/widgets/video-play-list.php:112
+msgid "منبع"
+msgstr "source"
+
+#: includes/class-tgm-plugin-activation.php:2545
+msgid "نوع"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2549
+msgid "نسخه"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2550
+msgid "وضعیت"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2599
+#, php-format
+msgid "نصب %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2604
+#, php-format
+msgid "آپدیت %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/class-tgm-plugin-activation.php:2610
+#, php-format
+msgid "فعالسازی %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2680
+msgid "پیام ارتقا از طرح نویسنده افزونه:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2713
+msgid "نصب"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2719
+msgid "آپدیت"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2722
+msgid "فعالسازی"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2753
+msgid "هیچ افزونه ای برای نصب انتخاب نشد. هیچ اقدامی صورت نگرفت."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2755
+msgid "هیچ افزونه ای برای به روز رسانی انتخاب نشد. هیچ اقدامی صورت نگرفت."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2796
+msgid "در حال حاضر هیچ پلاگینی برای نصب وجود ندارد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2798
+msgid "در حال حاضر هیچ افزونه ای برای به روز رسانی در دسترس نیست."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2904
+msgid "هیچ افزونه ای برای فعال سازی انتخاب نشد. هیچ اقدامی صورت نگرفت."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2930
+msgid "در حال حاضر هیچ افزونه ای برای فعال سازی موجود نیست."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3154
+msgid "فعال سازی افزونه انجام نشد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3155
+msgid "افزونه با موفقیت فعال شد."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3494
+#, php-format
+msgid "در حال بروز رسانی افزونه %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/class-tgm-plugin-activation.php:3497
+#, php-format
+msgid "یک خطا رخ داد هنگام نصب %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3499
+#, php-format
+msgid "روند نصب %1$s با شکست موتاجه شد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3503
+msgid ""
+"مراحل نصب و فعال سازی شروع می شود. این فرآیند ممکن است در برخی از هاست ها "
+"مدتی طول بکشد، پس لطفا صبور باشید."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3505
+#, php-format
+msgid "%1$s با موفقیت نصب و فعال شد"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3505
+#: includes/class-tgm-plugin-activation.php:3513
+msgid "نمایش جزئیات"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3505
+#: includes/class-tgm-plugin-activation.php:3513
+msgid "مخفی کردن جزئیات"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3506
+msgid "تمامی افزونه ها با موفقیت نصب شدند."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3508
+#, php-format
+msgid "نصب و فعال سازی افزونه %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3511
+msgid ""
+"مراحل نصب شروع می شود. این فرآیند ممکن است در برخی از هاست ها مدتی طول بکشد، "
+"پس لطفا صبور باشید."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/class-tgm-plugin-activation.php:3513
+#, php-format
+msgid "%1$s با موفقیت نصب شد."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3514
+msgid "تمامی نصب ها انجام شده است."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/class-tgm-plugin-activation.php:3516
+#, php-format
+msgid "در حال نصب افزونه %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/comments/class-walker-comment.php:246
+msgid "Pingback:"
+msgstr ""
+
+#: includes/comments/class-walker-comment.php:246
+#: includes/comments/class-walker-comment.php:451
+msgid "Edit"
+msgstr ""
+
+#: includes/comments/class-walker-comment.php:298
+#: includes/comments/class-walker-comment.php:406
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/comments/class-walker-comment.php:300
+#: includes/comments/class-walker-comment.php:408
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#. translators: %s: Comment author link.
+#: includes/comments/class-walker-comment.php:322
+#, php-format
+msgid "%s <span class=\"says hamid\">saysss:</span>"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: includes/comments/class-walker-comment.php:339
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/comments/class-walker-comment.php:345
+msgid "(Edit)"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: includes/comments/class-walker-comment.php:437
+#, php-format
+msgid "%1$s ساعت %2$s"
+msgstr "%1$s in %2$s"
+
+#: includes/comments/comments-form.php:39
+msgid "نام"
+msgstr "Name"
+
+#: includes/comments/comments-form.php:51
+msgid "ایمیل"
+msgstr "Email"
+
+#: includes/comments/comments-form.php:62
+msgid "وبسایت"
+msgstr "Website"
+
+#: includes/comments/comments-form.php:78
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#. translators: %s: Asterisk symbol (*).
+#: includes/comments/comments-form.php:90
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/comments/comments-form.php:111
+msgid "دیدگاه شما"
+msgstr "Your comment"
+
+#. translators: %s: Login URL.
+#: includes/comments/comments-form.php:120
+#, php-format
+msgid ""
+"برای ارسال دیدگاه، ابتدا باید <a class=\"link\" href=\"%s\">وارد</a> شوید."
+msgstr ""
+"You must be <a class=\"link\" href=\"%s\">logged</a> in to post a comment."
+
+#. translators: 1: Edit user link, 2: Accessibility text, 3: User name, 4: Logout URL.
+#: includes/comments/comments-form.php:129
+#, php-format
+msgid ""
+"<a href=\"%1$s\" aria-label=\"%2$s\">به عنوان %3$s وارد شده اید</a>. <a "
+"class=\"link\" href=\"%4$s\">خارج می شوید؟</a>"
+msgstr ""
+"<a href=\"%1$s\" aria-label=\"%2$s\">You are logged in as %3$s</a>. <a class="
+"\"link\" href=\"%4$s\">logout?</a>"
+
+#. translators: %s: User name.
+#: includes/comments/comments-form.php:132
+#, php-format
+msgid "ورود به عنوان %s. ویرایش پروفایل شما."
+msgstr "Log in as %s. Edit your profile."
+
+#: includes/comments/comments-form.php:142
+msgid "آدرس ایمیل شما منتشر نخواهد شد."
+msgstr "Your email address will not be published."
+
+#: includes/comments/comments-form.php:154
+msgid "دیدگاهتان را بنویسید"
+msgstr "Write your comment"
+
+#. translators: %s: Author of the comment being replied to.
+#: includes/comments/comments-form.php:156
+#, php-format
+msgid "به %s پاسخ دهید"
+msgstr "Reply to %s"
+
+#: includes/comments/comments-form.php:161
+msgid " لغو پاسخ"
+msgstr " Cancel reply"
+
+#: includes/comments/comments-form.php:162
+msgid "ارسال دیدگاه"
+msgstr "Submit"
+
+#: includes/customizer-functions.php:19
+#: includes/customizer/elementor-upsell.php:78
+msgid "پنل تنظیمات پارسیان"
+msgstr "Harika Theme Options"
+
+#: includes/customizer/elementor-upsell.php:43
+#: includes/customizer/elementor-upsell.php:60
+msgid "یک سایت بی نظیر با استفاده از المنتور و قالب پارسیان بسازید."
+msgstr "Create a unique site using Elementor and the Harika theme."
+
+#: includes/customizer/elementor-upsell.php:54
+msgid "نصب و قعالسازی"
+msgstr "Installation and activation"
+
+#: includes/customizer/elementor-upsell.php:59
+#: includes/customizer/elementor-upsell.php:62
+msgid "نصب و فعالسازی"
+msgstr "Installation and activation"
+
+#: includes/customizer/elementor-upsell.php:67
+#: includes/customizer/elementor-upsell.php:70
+msgid "بروزرسانی المنتور"
+msgstr "update Elementor"
+
+#: includes/customizer/elementor-upsell.php:68
+msgid "شما نیاز به المنتور نسخه 3.1.0 و به بالاتر دارید."
+msgstr "You need Elementor version 3.1.0 or higher."
+
+#: includes/customizer/elementor-upsell.php:75
+msgid "گزینه های خود را از طریق المنتور تنظیم کنید"
+msgstr "Set your options through Elementor"
+
+#: includes/customizer/elementor-upsell.php:76
+msgid ""
+"نسل جدید پنل تنظیمات برای وردپرس اینبار با استفاده از المنتور و برای اولین "
+"بار در ایران."
+msgstr ""
+"The new generation of settings panel for WordPress, this time using "
+"Elementor and for the first time in Iran."
+
+#: includes/dashboard/harika-dashboard.php:9
+#: includes/dashboard/harika-dashboard.php:10
+msgid "تنظیمات قالب"
+msgstr "Theme options"
+
+#: includes/dashboard/welcome.php:20
+#, php-format
+msgid "قالب هاریکا نسخه %1$s"
+msgstr "Harika Theme version %1$s"
+
+#: includes/dashboard/welcome.php:29
+#, php-format
+msgid ""
+"بابت خرید قالب هاریکا از شما متشکریم! جهت دریافت پشتیبانی می توانید از طریق "
+"سایت %1$s اقدام بفرمایید. همچنین اگر از کیفیت قالب و پشتیبانی راضی هستید، با "
+"امتیاز 5 ستاره از تیم ما حمایت کنید."
+msgstr ""
+"Thank you for purchasing the Harika theme! In order to receive support, you "
+"can apply through %1$s site. Also, if you are satisfied with the quality of "
+"the theme and support, support our team with a 5-star rating."
+
+#: includes/dashboard/welcome.php:32
+msgid "راست چین"
+msgstr "RTL THEME"
+
+#: includes/dashboard/welcome.php:40
+msgid "فایل راهنمای قالب"
+msgstr "Documents"
+
+#: includes/dashboard/welcome.php:41
+msgid "ویدیو های آموزشی"
+msgstr "Video tutorials"
+
+#: includes/dashboard/welcome.php:42
+msgid "دریافت پشتیبانی"
+msgstr "Get support"
+
+#: includes/dashboard/welcome.php:43
+msgid "سایر محصولات ما!"
+msgstr "Our Products!"
+
+#: includes/dashboard/welcome.php:50
+#, php-format
+msgid "طراحی شده توسط %1$s، جهت ارائه در سایت راست چین."
+msgstr "created by %1$s، To be presented on the rtl-theme.com ."
+
+#. Author of the plugin/theme
+#: includes/dashboard/welcome.php:53
+msgid "توسعه دهنده وب"
+msgstr "web developer"
+
+#: includes/dashboard/welcome.php:61
+msgid "جهت ورود به پنل تنظیمات قالب روی دکمه مقابل کلیک کنید."
+msgstr "Click on the opposite button to enter the theme options."
+
+#: includes/dashboard/welcome.php:62
+msgid "پنل تنظیمات"
+msgstr "Theme options"
+
+#: includes/dashboard/welcome.php:69
+msgid "توضیحات کوتاه"
+msgstr "Short description"
+
+#: includes/dashboard/welcome.php:73
+msgid ""
+"قالب هاریکا یک قالب کاملا ایرانی وردپرس است که بر پایه المنتور طراحی شده و "
+"نیازمند نصب و فعالسازی المنتور و المنتور پرو می باشد."
+msgstr ""
+"The Harika theme is a completely an Iranian WordPress theme, and that is "
+"designed based on Elementor and requires to installation and activation of "
+"Elementor and Elementor Pro."
+
+#: includes/dashboard/welcome.php:74
+msgid "برای بهینه سازی قالب می توانید از افزونه wp rocket استفاده کنید."
+msgstr "You can use wp rocket plugin to optimize your site and theme."
+
+#: includes/dashboard/welcome.php:75
+msgid ""
+"و در نهایت بسیار خوشحالیم که قالب ما را برای راه اندازی وب سایت خود انتخاب "
+"کرده اید و تمام تلاش خود را جهت راه اندازی هر چه بهتر برای شما خواهیم کرد."
+msgstr ""
+"And finally, we are very happy that you have chosen our theme to launch your "
+"website and we will do our best to launch it as well as possible for you."
+
+#: includes/dashboard/welcome.php:76
+msgid ""
+"حتی اگر سوالی خارج از پشتیبانی دارید، راحت باشید و با ما در میان بگذارید. "
+"خوشحال میشیم که کمکتون کنیم. ارادت!"
+msgstr ""
+"Even if you have a question outside of support, feel free to let us know. We "
+"will be happy to help you. devotion!"
+
+#: includes/dashboard/welcome.php:85
+msgid "وضعیت سیستم"
+msgstr "System status"
+
+#: includes/dashboard/welcome.php:89
+msgid "نسخه وردپرس"
+msgstr "WordPress version"
+
+#: includes/dashboard/welcome.php:93
+msgid "زبان"
+msgstr "Language"
+
+#: includes/dashboard/welcome.php:97
+msgid "نسخه PHP"
+msgstr "PHP version"
+
+#: includes/dashboard/welcome.php:102 includes/dashboard/welcome.php:104
+msgid ""
+"برای کارآمدی قالب و امنیت بالا مورد نیاز است که از نسخه PHP 7.4 استفاده کنید."
+msgstr ""
+"We recommend using PHP version 7.4 for greater performance and security."
+
+#: includes/dashboard/welcome.php:112
+msgid "محدودیت حافظه وردپرس"
+msgstr "WordPress memory limit"
+
+#: includes/dashboard/welcome.php:117 includes/dashboard/welcome.php:146
+msgid "مقدار وردپرس:"
+msgstr "WordPress Value:"
+
+#: includes/dashboard/welcome.php:117
+msgid "مورد نیاز است که محدودیت حافظه خود را حداقل روی 256M تنظیم کنید."
+msgstr "We recommend setting memory to set at least 256M."
+
+#: includes/dashboard/welcome.php:118
+msgid "نحوه افزایش حافظه"
+msgstr "Check how to increase memory limit"
+
+#: includes/dashboard/welcome.php:126
+msgid "حداکثر زمان اجرای PHP"
+msgstr "Maximum PHP execution time"
+
+#: includes/dashboard/welcome.php:131
+msgid "مقدار سرور:"
+msgstr "Server Value:"
+
+#: includes/dashboard/welcome.php:132
+msgid "مورد نیاز است که max_execution_time خود را حداقل روی 300 تنظیم کنید."
+msgstr "We recommend setting PHP max_execution_time to at least 300."
+
+#: includes/dashboard/welcome.php:133
+msgid "نحوه افزایش max_execution_time"
+msgstr "Check how to increase max execution time"
+
+#: includes/dashboard/welcome.php:141
+msgid "حداکثر متغییر های ورودی PHP"
+msgstr "PHP Max Input Vars"
+
+#: includes/dashboard/welcome.php:147
+msgid "مورد نیاز است که max_input_vars حداقل روی 1000 تنظیم شود."
+msgstr "We recommend setting PHP max_input_vars to at least 1000."
+
+#: includes/dashboard/welcome.php:148
+msgid "نحوه افزایش max_input_vars"
+msgstr "Check how to increase max input vars"
+
+#: includes/dashboard/welcome.php:156
+msgid "اطلاعات سرور"
+msgstr "Server information"
+
+#: includes/elements/elements.php:212
+msgid "المان های هاریکا"
+msgstr "Harika Elements"
+
+#: includes/elements/elements.php:219
+msgid "المان های هدر و فوتر"
+msgstr "Header & Footer Elements"
+
+#: includes/elements/elements.php:226
+msgid "المان های سینگل و آرشیو"
+msgstr "Single & Archive Elements"
+
+#: includes/elements/elements.php:265 includes/elements/elements.php:315
+#: includes/elements/elements.php:670
+#: includes/elements/widgets/header-footer/dark-mode.php:447
+#: includes/elements/widgets/header-footer/menu.php:503
+#: includes/elements/widgets/header-footer/menu.php:1403
+#: includes/elements/widgets/header-footer/menu.php:2223
+#: includes/elements/widgets/header-footer/menu.php:3005
+#: includes/elements/widgets/header-footer/menu.php:4023
+#: includes/elements/widgets/header-footer/search.php:573
+#: includes/elements/widgets/header-footer/simple-icon.php:455
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:560
+#: includes/elements/widgets/single-archive/author-box.php:163
+#: includes/elements/widgets/single-archive/categories.php:242
+#: includes/elements/widgets/single-archive/next-prev.php:155
+#: includes/elements/widgets/single-archive/share.php:363
+#: includes/elements/widgets/single-archive/tags.php:315
+msgid "دارک"
+msgstr "Dark"
+
+#: includes/elements/elements.php:272 includes/elements/elements.php:289
+#: includes/elements/elements.php:322 includes/elements/elements.php:339
+#: includes/elements/elements.php:687 includes/elements/elements.php:714
+msgid "پس زمینه دارک"
+msgstr "Dark Background"
+
+#: includes/elements/elements.php:282 includes/elements/elements.php:332
+#: includes/elements/elements.php:697
+#: includes/elements/widgets/header-footer/dark-mode.php:583
+#: includes/elements/widgets/header-footer/hot-topics.php:510
+#: includes/elements/widgets/header-footer/menu.php:665
+#: includes/elements/widgets/header-footer/menu.php:1668
+#: includes/elements/widgets/header-footer/menu.php:2336
+#: includes/elements/widgets/header-footer/search.php:709
+#: includes/elements/widgets/header-footer/simple-icon.php:591
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:696
+#: includes/elements/widgets/single-archive/categories.php:322
+#: includes/elements/widgets/single-archive/share.php:499
+#: includes/elements/widgets/single-archive/tags.php:483
+msgid "هاور دارک"
+msgstr "Dark hover"
+
+#: includes/elements/elements.php:361
+#: includes/elements/widgets/single-archive/meta-data.php:187
+msgid "رنگ متن (دارک مود)"
+msgstr "Text color (dark mode)"
+
+#: includes/elements/elements.php:381 includes/elements/elements.php:401
+msgid "رنگ (دارک مود)"
+msgstr "Color (dark mode)"
+
+#: includes/elements/elements.php:421
+#: includes/elements/widgets/single-archive/featured-image.php:209
+msgid "حداکثر ارتفاع"
+msgstr "Maximum height"
+
+#: includes/elements/elements.php:450
+msgid "تایپوگرافی و رنگ"
+msgstr "Typography and color"
+
+#: includes/elements/elements.php:458
+msgid "تایپوگرافی p"
+msgstr "Typography p"
+
+#: includes/elements/elements.php:466
+msgid "تایپوگرافی a"
+msgstr "Typography a"
+
+#: includes/elements/elements.php:474
+msgid "تایپوگرافی span"
+msgstr "Typography span"
+
+#: includes/elements/elements.php:482
+msgid "تایپوگرافی div"
+msgstr "Typography div"
+
+#: includes/elements/elements.php:490
+msgid "تایپوگرافی h1"
+msgstr "Typography h1"
+
+#: includes/elements/elements.php:498
+msgid "تایپوگرافی h2"
+msgstr "Typography h2"
+
+#: includes/elements/elements.php:506
+msgid "تایپوگرافی h3"
+msgstr "Typography h3"
+
+#: includes/elements/elements.php:514
+msgid "تایپوگرافی h4"
+msgstr "Typography h4"
+
+#: includes/elements/elements.php:522
+msgid "تایپوگرافی h5"
+msgstr "Typography h5"
+
+#: includes/elements/elements.php:530
+msgid "تایپوگرافی h6"
+msgstr "Typography h6"
+
+#: includes/elements/elements.php:538
+msgid "رنگ p"
+msgstr "color - p"
+
+#: includes/elements/elements.php:548
+msgid "رنگ a"
+msgstr "Color - a"
+
+#: includes/elements/elements.php:558
+msgid "رنگ span"
+msgstr "Color - span"
+
+#: includes/elements/elements.php:568
+msgid "رنگ div"
+msgstr "Color - div"
+
+#: includes/elements/elements.php:578
+msgid "رنگ همه تگ های h"
+msgstr "Color of all h tags"
+
+#: includes/elements/elements.php:588
+msgid "رنگ h1"
+msgstr "Color - H1"
+
+#: includes/elements/elements.php:598
+msgid "رنگ h2"
+msgstr "Color - H2"
+
+#: includes/elements/elements.php:608
+msgid "رنگ h3"
+msgstr "Color - H3"
+
+#: includes/elements/elements.php:618
+msgid "رنگ h4"
+msgstr "Color - H4"
+
+#: includes/elements/elements.php:628
+msgid "رنگ h5"
+msgstr "Color - H5"
+
+#: includes/elements/elements.php:638
+msgid "رنگ h6"
+msgstr "Color - H6"
+
+#: includes/elements/elements.php:676 includes/elements/elements.php:703
+msgid "رنگ متن دارک"
+msgstr "Text color in dark"
+
+#: includes/elements/inc/global-widget-controls.php:16
+msgid "کوئری"
+msgstr "Query"
+
+#: includes/elements/inc/global-widget-controls.php:33
+#: includes/elements/inc/global-widget-controls.php:107
+#: includes/elements/inc/global-widget-controls.php:155
+#: includes/elements/inc/global-widget-controls.php:197
+msgid "جستجو و انتخاب کنید"
+msgstr "Search and select"
+
+#: includes/elements/inc/global-widget-controls.php:58
+msgid "شامل"
+msgstr "Include"
+
+#: includes/elements/inc/global-widget-controls.php:68
+msgid "شامل موارد"
+msgstr "Include to"
+
+#: includes/elements/inc/global-widget-controls.php:73
+#: includes/elements/inc/global-widget-controls.php:85
+#: includes/elements/inc/global-widget-controls.php:141
+#: includes/elements/inc/global-widget-controls.php:175
+msgid "نویسنده ها"
+msgstr "Authors"
+
+#: includes/elements/inc/global-widget-controls.php:74
+msgid "شرایط (دسته بندی، برچسب و...)"
+msgstr "Terms (category, tag, etc.)"
+
+#: includes/elements/inc/global-widget-controls.php:102
+#: includes/elements/inc/global-widget-controls.php:144
+#: includes/elements/inc/global-widget-controls.php:192
+msgid "شرایط"
+msgstr "Terms"
+
+#: includes/elements/inc/global-widget-controls.php:103
+#: includes/elements/inc/global-widget-controls.php:193
+msgid ""
+"شرایط شامل تکسونومی ها می شود، همانند دسته بندی ها ، برچسب ها ، ساختار ها و "
+"سایر تکسومونی های سفارشی."
+msgstr ""
+"Terms include taxonomies, such as categories, tags, structures, and other "
+"custom taxonomies."
+
+#: includes/elements/inc/global-widget-controls.php:126
+msgid "عدم شامل"
+msgstr "exclude"
+
+#: includes/elements/inc/global-widget-controls.php:136
+msgid "عدم شامل موارد"
+msgstr "exclude to"
+
+#: includes/elements/inc/global-widget-controls.php:142
+msgid "پست فعلی"
+msgstr "Current post"
+
+#: includes/elements/inc/global-widget-controls.php:143
+#: includes/elements/widgets/grid-1.php:525
+#: includes/elements/widgets/grid-2.php:557
+#: includes/elements/widgets/header-footer/news-ticker.php:667
+#: includes/elements/widgets/header-footer/posts-thumbs.php:540
+#: includes/elements/widgets/hero-1.php:558
+#: includes/elements/widgets/list-1.php:556
+#: includes/elements/widgets/list-2.php:501
+#: includes/elements/widgets/list-3.php:473
+#: includes/elements/widgets/video-play-list.php:2505
+msgid "انتخاب دستی"
+msgstr "Manual selection"
+
+#: includes/elements/inc/global-widget-controls.php:224
+msgid "رد کردن پست (افست)"
+msgstr "Offset"
+
+#: includes/elements/inc/global-widget-controls.php:233
+#: includes/elements/inc/global-widget-controls.php:286
+#: includes/elements/widgets/grid-1.php:184
+#: includes/elements/widgets/grid-2.php:197
+#: includes/elements/widgets/header-footer/date.php:10
+#: includes/elements/widgets/header-footer/posts-thumbs.php:145
+#: includes/elements/widgets/header-footer/posts-thumbs.php:291
+#: includes/elements/widgets/hero-1.php:202
+#: includes/elements/widgets/list-1.php:214
+#: includes/elements/widgets/list-3.php:204
+#: includes/settings/settings-archive-and-search.php:215
+#: includes/settings/settings-post-single.php:409
+msgid "تاریخ"
+msgstr "Date"
+
+#: includes/elements/inc/global-widget-controls.php:237
+msgid "همه زمان"
+msgstr "All times"
+
+#: includes/elements/inc/global-widget-controls.php:238
+msgid "روز گذشته"
+msgstr "Yesterday"
+
+#: includes/elements/inc/global-widget-controls.php:239
+msgid "هفته گذشته"
+msgstr "Last week"
+
+#: includes/elements/inc/global-widget-controls.php:240
+msgid "ماه گذشته"
+msgstr "Last month"
+
+#: includes/elements/inc/global-widget-controls.php:241
+msgid "3 ماه گذشته"
+msgstr "Last 3 months"
+
+#: includes/elements/inc/global-widget-controls.php:242
+msgid "سال گذشته"
+msgstr "Last year"
+
+#: includes/elements/inc/global-widget-controls.php:243
+msgid "سفارشی"
+msgstr "Custom"
+
+#: includes/elements/inc/global-widget-controls.php:254
+msgid "قبل از"
+msgstr "before"
+
+#: includes/elements/inc/global-widget-controls.php:256
+msgid "پست هایی که قبل از تاریخ مشخص شده منتشر شده اند"
+msgstr "Posts published before the specified date"
+
+#: includes/elements/inc/global-widget-controls.php:267
+msgid "بعد از"
+msgstr "After"
+
+#: includes/elements/inc/global-widget-controls.php:269
+msgid "پست هایی که بعد از تاریخ مشخص شده منتشر شده اند"
+msgstr "Posts published after the specified date"
+
+#: includes/elements/inc/global-widget-controls.php:280
+msgid "مرتب سازی بر اساس"
+msgstr "order by"
+
+#: includes/elements/inc/global-widget-controls.php:284
+#: includes/elements/widgets/header-footer/hot-topics.php:52
+#: includes/elements/widgets/header-footer/news-ticker.php:45
+#: includes/elements/widgets/header-footer/posts-thumbs.php:107
+#: includes/elements/widgets/header-footer/posts-thumbs.php:253
+#: includes/elements/widgets/heading.php:38
+#: includes/elements/widgets/icon-link.php:38
+#: includes/elements/widgets/links.php:53
+#: includes/elements/widgets/single-archive/tags.php:39
+#: includes/elements/widgets/single-archive/tags.php:69
+#: includes/elements/widgets/single-archive/tags.php:322
+#: includes/elements/widgets/video-play-list.php:102
+msgid "عنوان"
+msgstr "Title"
+
+#: includes/elements/inc/global-widget-controls.php:285
+msgid "شناسه"
+msgstr "ID"
+
+#: includes/elements/inc/global-widget-controls.php:287
+#: includes/settings/settings-post-single.php:398
+msgid "نویسنده"
+msgstr "Author"
+
+#: includes/elements/inc/global-widget-controls.php:288
+#: includes/elements/widgets/grid-1.php:220
+#: includes/elements/widgets/grid-2.php:233
+#: includes/elements/widgets/list-1.php:251
+#: includes/settings/settings-archive-and-search.php:226
+#: includes/settings/settings-post-single.php:420
+msgid "تعداد نظرات"
+msgstr "Number of comments"
+
+#: includes/elements/inc/global-widget-controls.php:289
+msgid "سفارش منو"
+msgstr "menu order"
+
+#: includes/elements/inc/global-widget-controls.php:290
+msgid "تصادفی"
+msgstr "Random"
+
+#: includes/elements/inc/global-widget-controls.php:301
+msgid "سفارش"
+msgstr "Order"
+
+#: includes/elements/inc/global-widget-controls.php:305
+msgid "صعودی"
+msgstr "ascending"
+
+#: includes/elements/inc/global-widget-controls.php:306
+msgid "نزولی"
+msgstr "Descending"
+
+#: includes/elements/inc/global-widget-controls.php:317
+msgid "نادیده گرفتن پست های ثابت"
+msgstr "Ignore sticky posts"
+
+#: includes/elements/inc/global-widget-controls.php:330
+msgid "فقط پست های دارای تصویر شاخص"
+msgstr "Only posts with featured image"
+
+#: includes/elements/inc/global-widget-controls.php:331
+msgid "تنها پست هایی که تصویر شاخص دارند نمایش داده خواهند شد."
+msgstr "Only posts with featured image will be displayed."
+
+#: includes/elements/inc/global-widget-controls.php:343
+msgid "شناسه کوئری"
+msgstr "Query ID"
+
+#: includes/elements/inc/global-widget-controls.php:344
+msgid ""
+"به کوئری خود یک شناسه منحصر به فرد سفارشی بدهید تا امکان فیلتر سمت سرور "
+"فراهم شود"
+msgstr "Give your query a custom unique ID to enable server-side filtering"
+
+#: includes/elements/inc/template-lib.php:18
+#: includes/elements/inc/template-lib.php:21
+msgid "لطفا یک تمپلیت را جهت نمایش محتوا انتخاب کنید"
+msgstr "Please select a template to display the content"
+
+#: includes/elements/widgets/SAMPLE.php:10
+msgid "widget name ABC"
+msgstr ""
+
+#: includes/elements/widgets/SAMPLE.php:31
+#: includes/elements/widgets/grid-1.php:39
+#: includes/elements/widgets/grid-2.php:39
+#: includes/elements/widgets/header-footer/date.php:31
+#: includes/elements/widgets/header-footer/hot-topics.php:28
+#: includes/elements/widgets/header-footer/logo.php:31
+#: includes/elements/widgets/header-footer/news-ticker.php:37
+#: includes/elements/widgets/header-footer/posts-thumbs.php:39
+#: includes/elements/widgets/header-footer/simple-icon.php:31
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:53
+#: includes/elements/widgets/heading.php:31
+#: includes/elements/widgets/hero-1.php:39
+#: includes/elements/widgets/icon-link.php:31
+#: includes/elements/widgets/links.php:29
+#: includes/elements/widgets/list-1.php:39
+#: includes/elements/widgets/list-2.php:39
+#: includes/elements/widgets/list-3.php:39
+#: includes/elements/widgets/single-archive/author-box.php:31
+#: includes/elements/widgets/single-archive/breadcrumb.php:31
+#: includes/elements/widgets/single-archive/categories.php:31
+#: includes/elements/widgets/single-archive/comments.php:31
+#: includes/elements/widgets/single-archive/featured-image.php:31
+#: includes/elements/widgets/single-archive/meta-data.php:31
+#: includes/elements/widgets/single-archive/share.php:31
+#: includes/elements/widgets/single-archive/tags.php:31
+#: includes/elements/widgets/video-play-list.php:40
+msgid "محتوا"
+msgstr "Content"
+
+#: includes/elements/widgets/SAMPLE.php:45
+#: includes/elements/widgets/grid-1.php:294
+#: includes/elements/widgets/grid-2.php:307
+#: includes/elements/widgets/header-footer/dark-mode.php:163
+#: includes/elements/widgets/header-footer/date.php:90
+#: includes/elements/widgets/header-footer/logo.php:102
+#: includes/elements/widgets/header-footer/news-ticker.php:118
+#: includes/elements/widgets/header-footer/posts-thumbs.php:89
+#: includes/elements/widgets/header-footer/search.php:220
+#: includes/elements/widgets/header-footer/simple-icon.php:171
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:276
+#: includes/elements/widgets/heading.php:65
+#: includes/elements/widgets/hero-1.php:327
+#: includes/elements/widgets/icon-link.php:112
+#: includes/elements/widgets/list-1.php:325
+#: includes/elements/widgets/list-2.php:270
+#: includes/elements/widgets/list-3.php:253
+#: includes/elements/widgets/single-archive/author-box.php:45
+#: includes/elements/widgets/single-archive/breadcrumb.php:86
+#: includes/elements/widgets/single-archive/categories.php:69
+#: includes/elements/widgets/single-archive/comments.php:45
+#: includes/elements/widgets/single-archive/featured-image.php:100
+#: includes/elements/widgets/single-archive/meta-data.php:161
+#: includes/elements/widgets/single-archive/next-prev.php:45
+#: includes/elements/widgets/single-archive/share.php:81
+#: includes/elements/widgets/single-archive/tags.php:51
+msgid "استایل"
+msgstr "Style"
+
+#: includes/elements/widgets/grid-1.php:16
+msgid "پست شبکه ای 1"
+msgstr "Grid Posts 1"
+
+#: includes/elements/widgets/grid-1.php:47
+#: includes/elements/widgets/grid-2.php:60
+#: includes/elements/widgets/header-footer/news-ticker.php:74
+#: includes/elements/widgets/header-footer/posts-thumbs.php:47
+#: includes/elements/widgets/hero-1.php:47
+#: includes/elements/widgets/list-1.php:47
+#: includes/elements/widgets/list-2.php:47
+#: includes/elements/widgets/list-3.php:47
+#: includes/elements/widgets/video-play-list.php:77
+msgid "تعداد پست ها"
+msgstr "Number of posts"
+
+#: includes/elements/widgets/grid-1.php:73
+#: includes/elements/widgets/grid-2.php:86
+#: includes/elements/widgets/header-footer/posts-thumbs.php:64
+#: includes/elements/widgets/hero-1.php:86
+#: includes/elements/widgets/list-1.php:73
+#: includes/elements/widgets/list-2.php:73
+#: includes/elements/widgets/list-3.php:73
+msgid "تعداد ستون ها"
+msgstr "Number of columns"
+
+#: includes/elements/widgets/grid-1.php:101
+#: includes/elements/widgets/grid-2.php:114
+#: includes/elements/widgets/hero-1.php:117
+#: includes/elements/widgets/list-1.php:114
+#: includes/elements/widgets/list-2.php:114
+#: includes/elements/widgets/list-3.php:102
+#: includes/elements/widgets/video-play-list.php:619
+#: includes/elements/widgets/video-play-list.php:1595
+#: includes/settings/settings-404.php:163
+msgid "ارتفاع تصویر"
+msgstr "Image height"
+
+#: includes/elements/widgets/grid-1.php:134
+#: includes/elements/widgets/grid-2.php:147
+#: includes/elements/widgets/hero-1.php:152
+#: includes/elements/widgets/list-1.php:164
+#: includes/elements/widgets/list-2.php:166
+#: includes/elements/widgets/list-3.php:154
+msgid "بزرگنمایی تصویر در هاور"
+msgstr "Zoom image in hover"
+
+#: includes/elements/widgets/grid-1.php:157
+#: includes/elements/widgets/grid-2.php:170
+#: includes/elements/widgets/hero-1.php:175
+#: includes/elements/widgets/list-1.php:187
+#: includes/elements/widgets/list-2.php:189
+#: includes/elements/widgets/list-3.php:177
+msgid "سرعت بزرگنمایی"
+msgstr "Zoom speed"
+
+#: includes/elements/widgets/grid-1.php:186
+#: includes/elements/widgets/grid-1.php:222
+#: includes/elements/widgets/grid-1.php:232
+#: includes/elements/widgets/grid-1.php:243
+#: includes/elements/widgets/grid-1.php:262
+#: includes/elements/widgets/grid-2.php:199
+#: includes/elements/widgets/grid-2.php:235
+#: includes/elements/widgets/grid-2.php:245
+#: includes/elements/widgets/grid-2.php:256
+#: includes/elements/widgets/grid-2.php:275
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:63
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:118
+#: includes/elements/widgets/hero-1.php:204
+#: includes/elements/widgets/hero-1.php:240
+#: includes/elements/widgets/hero-1.php:251
+#: includes/elements/widgets/hero-1.php:261
+#: includes/elements/widgets/hero-1.php:280
+#: includes/elements/widgets/icon-link.php:69
+#: includes/elements/widgets/list-1.php:216
+#: includes/elements/widgets/list-1.php:253
+#: includes/elements/widgets/list-1.php:263
+#: includes/elements/widgets/list-1.php:274
+#: includes/elements/widgets/list-1.php:293
+#: includes/elements/widgets/list-2.php:219
+#: includes/elements/widgets/list-2.php:238
+#: includes/elements/widgets/list-3.php:206
+#: includes/elements/widgets/single-archive/meta-data.php:65
+#: includes/elements/widgets/single-archive/meta-data.php:93
+#: includes/elements/widgets/single-archive/meta-data.php:147
+#: includes/settings/settings-archive-and-search.php:56
+#: includes/settings/settings-archive-and-search.php:206
+#: includes/settings/settings-archive-and-search.php:217
+#: includes/settings/settings-archive-and-search.php:228
+#: includes/settings/settings-post-single.php:83
+#: includes/settings/settings-post-single.php:400
+#: includes/settings/settings-post-single.php:411
+#: includes/settings/settings-post-single.php:422
+#: includes/settings/settings-post-single.php:433
+#: includes/settings/settings-post-single.php:444
+msgid "نمایش"
+msgstr "on"
+
+#: includes/elements/widgets/grid-1.php:187
+#: includes/elements/widgets/grid-1.php:223
+#: includes/elements/widgets/grid-1.php:233
+#: includes/elements/widgets/grid-1.php:244
+#: includes/elements/widgets/grid-1.php:263
+#: includes/elements/widgets/grid-2.php:200
+#: includes/elements/widgets/grid-2.php:236
+#: includes/elements/widgets/grid-2.php:246
+#: includes/elements/widgets/grid-2.php:257
+#: includes/elements/widgets/grid-2.php:276
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:64
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:119
+#: includes/elements/widgets/hero-1.php:205
+#: includes/elements/widgets/hero-1.php:241
+#: includes/elements/widgets/hero-1.php:252
+#: includes/elements/widgets/hero-1.php:262
+#: includes/elements/widgets/hero-1.php:281
+#: includes/elements/widgets/icon-link.php:70
+#: includes/elements/widgets/list-1.php:217
+#: includes/elements/widgets/list-1.php:254
+#: includes/elements/widgets/list-1.php:264
+#: includes/elements/widgets/list-1.php:275
+#: includes/elements/widgets/list-1.php:294
+#: includes/elements/widgets/list-2.php:220
+#: includes/elements/widgets/list-2.php:239
+#: includes/elements/widgets/list-3.php:207
+#: includes/elements/widgets/single-archive/meta-data.php:66
+#: includes/elements/widgets/single-archive/meta-data.php:94
+#: includes/elements/widgets/single-archive/meta-data.php:148
+#: includes/settings/settings-archive-and-search.php:57
+#: includes/settings/settings-archive-and-search.php:207
+#: includes/settings/settings-archive-and-search.php:218
+#: includes/settings/settings-archive-and-search.php:229
+#: includes/settings/settings-post-single.php:84
+#: includes/settings/settings-post-single.php:401
+#: includes/settings/settings-post-single.php:412
+#: includes/settings/settings-post-single.php:423
+#: includes/settings/settings-post-single.php:434
+#: includes/settings/settings-post-single.php:445
+msgid "مخفی"
+msgstr "off"
+
+#: includes/elements/widgets/grid-1.php:194
+#: includes/elements/widgets/grid-2.php:207
+#: includes/elements/widgets/hero-1.php:212
+#: includes/elements/widgets/list-1.php:224
+#: includes/elements/widgets/list-3.php:214
+#: includes/elements/widgets/single-archive/meta-data.php:120
+msgid "نوع تاریخ"
+msgstr "Date type"
+
+#: includes/elements/widgets/grid-1.php:198
+#: includes/elements/widgets/grid-2.php:211
+#: includes/elements/widgets/hero-1.php:216
+#: includes/elements/widgets/list-1.php:228
+#: includes/elements/widgets/list-3.php:218
+#: includes/elements/widgets/single-archive/meta-data.php:124
+msgid "تاریخ انتشار"
+msgstr "Date of publication"
+
+#: includes/elements/widgets/grid-1.php:199
+#: includes/elements/widgets/grid-2.php:212
+#: includes/elements/widgets/hero-1.php:217
+#: includes/elements/widgets/list-1.php:229
+#: includes/elements/widgets/list-3.php:219
+#: includes/elements/widgets/single-archive/meta-data.php:125
+msgid "آخرین ویرایش"
+msgstr "last edition"
+
+#: includes/elements/widgets/grid-1.php:205
+#: includes/elements/widgets/grid-2.php:218
+#: includes/elements/widgets/header-footer/date.php:38
+#: includes/elements/widgets/hero-1.php:223
+#: includes/elements/widgets/list-1.php:235
+#: includes/elements/widgets/list-3.php:225
+#: includes/elements/widgets/single-archive/meta-data.php:131
+msgid "فرمت تاریخ"
+msgstr "Date format"
+
+#: includes/elements/widgets/grid-1.php:230
+#: includes/elements/widgets/grid-2.php:243
+#: includes/elements/widgets/hero-1.php:238
+#: includes/elements/widgets/list-1.php:261
+#: includes/elements/widgets/single-archive/categories.php:10
+#: includes/settings/settings-archive-and-search.php:204
+#: includes/settings/settings-post-single.php:431
+msgid "دسته بندی ها"
+msgstr "Categories"
+
+#: includes/elements/widgets/grid-1.php:241
+#: includes/elements/widgets/grid-2.php:254
+#: includes/elements/widgets/hero-1.php:259
+#: includes/elements/widgets/list-1.php:272
+#: includes/elements/widgets/list-2.php:217
+msgid "آیکن پست فرمت"
+msgstr "Post format icon"
+
+#: includes/elements/widgets/grid-1.php:260
+#: includes/elements/widgets/grid-2.php:273
+#: includes/elements/widgets/hero-1.php:278
+#: includes/elements/widgets/list-1.php:291
+#: includes/elements/widgets/list-2.php:236
+msgid "چکیده"
+msgstr "Excerpt"
+
+#: includes/elements/widgets/grid-1.php:271
+#: includes/elements/widgets/grid-2.php:284
+#: includes/elements/widgets/hero-1.php:304
+#: includes/elements/widgets/list-1.php:302
+#: includes/elements/widgets/list-2.php:247
+#: includes/settings/settings-archive-and-search.php:186
+msgid "طول چکیده"
+msgstr "Excerpt length"
+
+#: includes/elements/widgets/grid-1.php:303
+#: includes/elements/widgets/grid-2.php:316
+#: includes/elements/widgets/hero-1.php:336
+#: includes/elements/widgets/list-1.php:334
+#: includes/elements/widgets/list-2.php:279
+#: includes/elements/widgets/list-3.php:262
+msgid "فاصله ستون ها"
+msgstr "Columns gap"
+
+#: includes/elements/widgets/grid-1.php:322
+#: includes/elements/widgets/grid-2.php:335
+#: includes/elements/widgets/hero-1.php:355
+#: includes/elements/widgets/list-1.php:353
+#: includes/elements/widgets/list-2.php:298
+#: includes/elements/widgets/list-3.php:281
+msgid "فاصله ردیف ها"
+msgstr "Rows gap"
+
+#: includes/elements/widgets/grid-1.php:338
+#: includes/elements/widgets/grid-2.php:351
+#: includes/elements/widgets/hero-1.php:371
+#: includes/elements/widgets/list-1.php:369
+#: includes/elements/widgets/list-2.php:314
+#: includes/elements/widgets/list-3.php:297
+#: includes/settings/settings-post-single.php:197
+msgid "عنوان پست"
+msgstr "Post title"
+
+#: includes/elements/widgets/grid-1.php:347
+#: includes/elements/widgets/grid-2.php:360
+#: includes/elements/widgets/hero-1.php:380
+#: includes/elements/widgets/list-1.php:378
+#: includes/elements/widgets/list-2.php:323
+#: includes/settings/settings-archive-and-search.php:177
+msgid "تایپوگرافی چکیده"
+msgstr "Excerpt typography"
+
+#: includes/elements/widgets/grid-1.php:359
+#: includes/elements/widgets/grid-2.php:372
+#: includes/elements/widgets/grid-2.php:388
+#: includes/elements/widgets/hero-1.php:392
+#: includes/elements/widgets/list-1.php:390
+#: includes/elements/widgets/list-2.php:335
+#: includes/elements/widgets/list-3.php:307
+msgid "حاشیه مدور"
+msgstr "Border radius"
+
+#: includes/elements/widgets/grid-1.php:837
+#: includes/elements/widgets/grid-2.php:847
+#: includes/elements/widgets/list-1.php:867
+#: includes/elements/widgets/single-archive/meta-data.php:266
+msgid "1 دیدگاه"
+msgstr "1 comment"
+
+#: includes/elements/widgets/grid-1.php:838
+#: includes/elements/widgets/grid-2.php:848
+#: includes/elements/widgets/list-1.php:868
+#: includes/elements/widgets/single-archive/meta-data.php:267
+#, php-format
+msgid "%1$s دیدگاه"
+msgstr "%1$s comments"
+
+#: includes/elements/widgets/grid-2.php:16
+msgid "پست شبکه ای 2"
+msgstr "Grid Posts 2"
+
+#: includes/elements/widgets/grid-2.php:47
+#: includes/elements/widgets/header-footer/search.php:35
+#: includes/elements/widgets/links.php:37
+#: includes/settings/settings-more.php:54
+msgid "طرح بندی"
+msgstr "Layout"
+
+#: includes/elements/widgets/grid-2.php:51
+#: includes/elements/widgets/hero-1.php:77
+msgid "طرح بندی 1"
+msgstr "Layout 1"
+
+#: includes/elements/widgets/grid-2.php:52
+#: includes/elements/widgets/hero-1.php:78
+msgid "طرح بندی 2"
+msgstr "Layout 2"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:12
+#: includes/elements/widgets/header-footer/date.php:185
+#: includes/elements/widgets/header-footer/hot-topics.php:198
+#: includes/elements/widgets/header-footer/hot-topics.php:435
+#: includes/elements/widgets/header-footer/news-ticker.php:321
+#: includes/elements/widgets/header-footer/posts-thumbs.php:246
+#: includes/elements/widgets/single-archive/breadcrumb.php:214
+msgid "دارک مود"
+msgstr "Dark Mode"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:28
+#: includes/elements/widgets/header-footer/search.php:28
+msgid "تنظیمات"
+msgstr "Settings"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:36
+msgid "آیکن حالت روشن"
+msgstr "Light mode icon"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:48
+msgid "آیکن حالت دارک"
+msgstr "Dark mode icon"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:61
+#: includes/elements/widgets/header-footer/date.php:60
+#: includes/elements/widgets/header-footer/logo.php:72
+#: includes/elements/widgets/header-footer/menu.php:117
+#: includes/elements/widgets/header-footer/search.php:53
+#: includes/elements/widgets/header-footer/simple-icon.php:68
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:148
+#: includes/elements/widgets/single-archive/breadcrumb.php:56
+#: includes/elements/widgets/single-archive/categories.php:39
+#: includes/elements/widgets/single-archive/featured-image.php:71
+#: includes/elements/widgets/single-archive/share.php:51
+#: includes/elements/widgets/video-play-list.php:317
+msgid "ترازبندی"
+msgstr "Text align"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:65
+#: includes/elements/widgets/header-footer/date.php:64
+#: includes/elements/widgets/header-footer/logo.php:76
+#: includes/elements/widgets/header-footer/menu.php:121
+#: includes/elements/widgets/header-footer/search.php:57
+#: includes/elements/widgets/header-footer/simple-icon.php:72
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:152
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:178
+#: includes/elements/widgets/list-1.php:97
+#: includes/elements/widgets/list-2.php:97
+#: includes/elements/widgets/single-archive/breadcrumb.php:60
+#: includes/elements/widgets/single-archive/categories.php:43
+#: includes/elements/widgets/single-archive/featured-image.php:75
+#: includes/elements/widgets/single-archive/share.php:55
+#: includes/elements/widgets/video-play-list.php:325
+msgid "چپ"
+msgstr "left"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:69
+#: includes/elements/widgets/header-footer/date.php:68
+#: includes/elements/widgets/header-footer/logo.php:80
+#: includes/elements/widgets/header-footer/menu.php:125
+#: includes/elements/widgets/header-footer/search.php:61
+#: includes/elements/widgets/header-footer/simple-icon.php:76
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:156
+#: includes/elements/widgets/single-archive/breadcrumb.php:64
+#: includes/elements/widgets/single-archive/categories.php:47
+#: includes/elements/widgets/single-archive/featured-image.php:79
+#: includes/elements/widgets/single-archive/share.php:59
+msgid "وسط"
+msgstr "center"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:73
+#: includes/elements/widgets/header-footer/date.php:72
+#: includes/elements/widgets/header-footer/logo.php:84
+#: includes/elements/widgets/header-footer/menu.php:129
+#: includes/elements/widgets/header-footer/search.php:65
+#: includes/elements/widgets/header-footer/simple-icon.php:80
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:160
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:179
+#: includes/elements/widgets/list-1.php:96
+#: includes/elements/widgets/list-2.php:96
+#: includes/elements/widgets/single-archive/breadcrumb.php:68
+#: includes/elements/widgets/single-archive/categories.php:51
+#: includes/elements/widgets/single-archive/featured-image.php:83
+#: includes/elements/widgets/single-archive/share.php:63
+#: includes/elements/widgets/video-play-list.php:321
+msgid "راست"
+msgstr "right"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:95
+#: includes/elements/widgets/header-footer/logo.php:110
+#: includes/elements/widgets/header-footer/search.php:150
+#: includes/elements/widgets/header-footer/simple-icon.php:101
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:194
+#: includes/elements/widgets/single-archive/featured-image.php:108
+msgid "عرض"
+msgstr "Width"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:130
+#: includes/elements/widgets/header-footer/hot-topics.php:72
+#: includes/elements/widgets/header-footer/logo.php:180
+#: includes/elements/widgets/header-footer/search.php:185
+#: includes/elements/widgets/header-footer/simple-icon.php:136
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:229
+#: includes/elements/widgets/single-archive/featured-image.php:178
+msgid "ارتفاع"
+msgstr "Height"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:174
+#: includes/elements/widgets/header-footer/date.php:101
+#: includes/elements/widgets/header-footer/hot-topics.php:123
+#: includes/elements/widgets/header-footer/hot-topics.php:285
+#: includes/elements/widgets/header-footer/menu.php:159
+#: includes/elements/widgets/header-footer/menu.php:862
+#: includes/elements/widgets/header-footer/menu.php:1973
+#: includes/elements/widgets/header-footer/menu.php:2504
+#: includes/elements/widgets/header-footer/menu.php:3521
+#: includes/elements/widgets/header-footer/news-ticker.php:129
+#: includes/elements/widgets/header-footer/posts-thumbs.php:100
+#: includes/elements/widgets/header-footer/search.php:234
+#: includes/elements/widgets/header-footer/simple-icon.php:182
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:287
+#: includes/elements/widgets/single-archive/author-box.php:56
+#: includes/elements/widgets/single-archive/breadcrumb.php:97
+#: includes/elements/widgets/single-archive/categories.php:81
+#: includes/elements/widgets/single-archive/next-prev.php:56
+#: includes/elements/widgets/single-archive/share.php:92
+#: includes/elements/widgets/single-archive/tags.php:62
+#: includes/elements/widgets/video-play-list.php:690
+#: includes/elements/widgets/video-play-list.php:1666
+#: includes/settings/settings-post-single.php:266
+msgid "عادی"
+msgstr "Normal"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:181
+#: includes/elements/widgets/header-footer/date.php:136
+#: includes/elements/widgets/header-footer/search.php:241
+#: includes/elements/widgets/header-footer/simple-icon.php:189
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:294
+#: includes/elements/widgets/single-archive/share.php:99
+msgid "استایل آیکن (عادی)"
+msgstr "icon style (normal)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:190
+#: includes/elements/widgets/header-footer/dark-mode.php:326
+#: includes/elements/widgets/header-footer/dark-mode.php:463
+#: includes/elements/widgets/header-footer/dark-mode.php:599
+#: includes/elements/widgets/header-footer/date.php:145
+#: includes/elements/widgets/header-footer/date.php:229
+#: includes/elements/widgets/header-footer/search.php:250
+#: includes/elements/widgets/header-footer/search.php:376
+#: includes/elements/widgets/header-footer/search.php:454
+#: includes/elements/widgets/header-footer/search.php:589
+#: includes/elements/widgets/header-footer/search.php:725
+#: includes/elements/widgets/header-footer/simple-icon.php:198
+#: includes/elements/widgets/header-footer/simple-icon.php:334
+#: includes/elements/widgets/header-footer/simple-icon.php:471
+#: includes/elements/widgets/header-footer/simple-icon.php:607
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:303
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:439
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:576
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:712
+#: includes/elements/widgets/heading.php:82
+#: includes/elements/widgets/icon-link.php:120
+#: includes/elements/widgets/single-archive/share.php:108
+#: includes/elements/widgets/single-archive/share.php:244
+#: includes/elements/widgets/single-archive/share.php:379
+#: includes/elements/widgets/single-archive/share.php:515
+#: includes/elements/widgets/video-play-list.php:496
+#: includes/elements/widgets/video-play-list.php:996
+#: includes/elements/widgets/video-play-list.php:1472
+#: includes/elements/widgets/video-play-list.php:1972
+msgid "تایپوگرافی آیکن"
+msgstr "Icon typography"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:198
+#: includes/elements/widgets/header-footer/dark-mode.php:334
+#: includes/elements/widgets/header-footer/dark-mode.php:471
+#: includes/elements/widgets/header-footer/dark-mode.php:607
+#: includes/elements/widgets/header-footer/date.php:153
+#: includes/elements/widgets/header-footer/date.php:237
+#: includes/elements/widgets/header-footer/search.php:258
+#: includes/elements/widgets/header-footer/search.php:384
+#: includes/elements/widgets/header-footer/search.php:462
+#: includes/elements/widgets/header-footer/search.php:597
+#: includes/elements/widgets/header-footer/search.php:733
+#: includes/elements/widgets/header-footer/simple-icon.php:206
+#: includes/elements/widgets/header-footer/simple-icon.php:342
+#: includes/elements/widgets/header-footer/simple-icon.php:479
+#: includes/elements/widgets/header-footer/simple-icon.php:615
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:311
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:447
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:584
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:720
+#: includes/elements/widgets/single-archive/share.php:116
+#: includes/elements/widgets/single-archive/share.php:252
+#: includes/elements/widgets/single-archive/share.php:387
+#: includes/elements/widgets/single-archive/share.php:523
+#: includes/elements/widgets/video-play-list.php:505
+#: includes/elements/widgets/video-play-list.php:1005
+#: includes/elements/widgets/video-play-list.php:1481
+#: includes/elements/widgets/video-play-list.php:1981
+#: includes/settings/settings-post-single.php:273
+#: includes/settings/settings-post-single.php:333
+msgid "رنگ آیکن"
+msgstr "icon color"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:208
+#: includes/elements/widgets/header-footer/dark-mode.php:344
+#: includes/elements/widgets/header-footer/dark-mode.php:481
+#: includes/elements/widgets/header-footer/dark-mode.php:617
+#: includes/elements/widgets/header-footer/search.php:268
+#: includes/elements/widgets/header-footer/search.php:394
+#: includes/elements/widgets/header-footer/search.php:472
+#: includes/elements/widgets/header-footer/search.php:607
+#: includes/elements/widgets/header-footer/search.php:743
+#: includes/elements/widgets/header-footer/simple-icon.php:216
+#: includes/elements/widgets/header-footer/simple-icon.php:352
+#: includes/elements/widgets/header-footer/simple-icon.php:489
+#: includes/elements/widgets/header-footer/simple-icon.php:625
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:321
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:457
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:594
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:730
+#: includes/elements/widgets/single-archive/share.php:126
+#: includes/elements/widgets/single-archive/share.php:262
+#: includes/elements/widgets/single-archive/share.php:397
+#: includes/elements/widgets/single-archive/share.php:533
+msgid "رنگ stroke های svg"
+msgstr "color of the svg stork'es"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:218
+#: includes/elements/widgets/header-footer/dark-mode.php:354
+#: includes/elements/widgets/header-footer/dark-mode.php:491
+#: includes/elements/widgets/header-footer/dark-mode.php:627
+#: includes/elements/widgets/header-footer/search.php:278
+#: includes/elements/widgets/header-footer/search.php:404
+#: includes/elements/widgets/header-footer/search.php:482
+#: includes/elements/widgets/header-footer/search.php:617
+#: includes/elements/widgets/header-footer/search.php:753
+#: includes/elements/widgets/header-footer/simple-icon.php:226
+#: includes/elements/widgets/header-footer/simple-icon.php:362
+#: includes/elements/widgets/header-footer/simple-icon.php:499
+#: includes/elements/widgets/header-footer/simple-icon.php:635
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:331
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:467
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:604
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:740
+#: includes/elements/widgets/single-archive/share.php:136
+#: includes/elements/widgets/single-archive/share.php:272
+#: includes/elements/widgets/single-archive/share.php:407
+#: includes/elements/widgets/single-archive/share.php:543
+msgid "رنگ fill های svg"
+msgstr "color of the svg fill's"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:229
+#: includes/elements/widgets/header-footer/search.php:289
+#: includes/elements/widgets/header-footer/simple-icon.php:237
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:342
+#: includes/elements/widgets/single-archive/share.php:147
+msgid "استایل باکس آیکن (عادی)"
+msgstr "Icon style box (normal)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:239
+#: includes/elements/widgets/header-footer/dark-mode.php:375
+#: includes/elements/widgets/header-footer/dark-mode.php:512
+#: includes/elements/widgets/header-footer/dark-mode.php:648
+#: includes/elements/widgets/header-footer/news-ticker.php:271
+#: includes/elements/widgets/header-footer/news-ticker.php:463
+#: includes/elements/widgets/header-footer/posts-thumbs.php:193
+#: includes/elements/widgets/header-footer/posts-thumbs.php:339
+#: includes/elements/widgets/header-footer/search.php:299
+#: includes/elements/widgets/header-footer/search.php:503
+#: includes/elements/widgets/header-footer/search.php:638
+#: includes/elements/widgets/header-footer/search.php:774
+#: includes/elements/widgets/header-footer/simple-icon.php:247
+#: includes/elements/widgets/header-footer/simple-icon.php:383
+#: includes/elements/widgets/header-footer/simple-icon.php:520
+#: includes/elements/widgets/header-footer/simple-icon.php:656
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:352
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:488
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:625
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:761
+#: includes/elements/widgets/single-archive/breadcrumb.php:163
+#: includes/elements/widgets/single-archive/breadcrumb.php:280
+#: includes/elements/widgets/single-archive/share.php:157
+#: includes/elements/widgets/single-archive/share.php:293
+#: includes/elements/widgets/single-archive/share.php:428
+#: includes/elements/widgets/single-archive/share.php:564
+msgid "پس زمینه کلی"
+msgstr "Main background"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:248
+#: includes/elements/widgets/header-footer/dark-mode.php:384
+#: includes/elements/widgets/header-footer/dark-mode.php:521
+#: includes/elements/widgets/header-footer/dark-mode.php:657
+#: includes/elements/widgets/header-footer/news-ticker.php:280
+#: includes/elements/widgets/header-footer/news-ticker.php:472
+#: includes/elements/widgets/header-footer/posts-thumbs.php:202
+#: includes/elements/widgets/header-footer/posts-thumbs.php:348
+#: includes/elements/widgets/header-footer/search.php:308
+#: includes/elements/widgets/header-footer/search.php:512
+#: includes/elements/widgets/header-footer/search.php:647
+#: includes/elements/widgets/header-footer/search.php:783
+#: includes/elements/widgets/header-footer/simple-icon.php:256
+#: includes/elements/widgets/header-footer/simple-icon.php:392
+#: includes/elements/widgets/header-footer/simple-icon.php:529
+#: includes/elements/widgets/header-footer/simple-icon.php:665
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:361
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:497
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:634
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:770
+#: includes/elements/widgets/single-archive/breadcrumb.php:172
+#: includes/elements/widgets/single-archive/breadcrumb.php:289
+#: includes/elements/widgets/single-archive/share.php:166
+#: includes/elements/widgets/single-archive/share.php:302
+#: includes/elements/widgets/single-archive/share.php:437
+#: includes/elements/widgets/single-archive/share.php:573
+msgid "کادر دور کلی"
+msgstr "Main border"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:256
+#: includes/elements/widgets/header-footer/dark-mode.php:392
+#: includes/elements/widgets/header-footer/dark-mode.php:529
+#: includes/elements/widgets/header-footer/dark-mode.php:665
+#: includes/elements/widgets/header-footer/news-ticker.php:288
+#: includes/elements/widgets/header-footer/news-ticker.php:480
+#: includes/elements/widgets/header-footer/posts-thumbs.php:210
+#: includes/elements/widgets/header-footer/posts-thumbs.php:356
+#: includes/elements/widgets/header-footer/search.php:316
+#: includes/elements/widgets/header-footer/search.php:520
+#: includes/elements/widgets/header-footer/search.php:655
+#: includes/elements/widgets/header-footer/search.php:791
+#: includes/elements/widgets/header-footer/simple-icon.php:264
+#: includes/elements/widgets/header-footer/simple-icon.php:400
+#: includes/elements/widgets/header-footer/simple-icon.php:537
+#: includes/elements/widgets/header-footer/simple-icon.php:673
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:369
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:505
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:642
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:778
+#: includes/elements/widgets/single-archive/breadcrumb.php:180
+#: includes/elements/widgets/single-archive/breadcrumb.php:297
+#: includes/elements/widgets/single-archive/share.php:174
+#: includes/elements/widgets/single-archive/share.php:310
+#: includes/elements/widgets/single-archive/share.php:445
+#: includes/elements/widgets/single-archive/share.php:581
+msgid "سایه کادر کلی"
+msgstr "Main boxshadow"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:264
+#: includes/elements/widgets/header-footer/dark-mode.php:400
+#: includes/elements/widgets/header-footer/dark-mode.php:537
+#: includes/elements/widgets/header-footer/dark-mode.php:673
+#: includes/elements/widgets/header-footer/hot-topics.php:172
+#: includes/elements/widgets/header-footer/hot-topics.php:247
+#: includes/elements/widgets/header-footer/hot-topics.php:334
+#: includes/elements/widgets/header-footer/hot-topics.php:409
+#: includes/elements/widgets/header-footer/hot-topics.php:484
+#: includes/elements/widgets/header-footer/hot-topics.php:559
+#: includes/elements/widgets/header-footer/logo.php:249
+#: includes/elements/widgets/header-footer/menu.php:244
+#: includes/elements/widgets/header-footer/menu.php:406
+#: includes/elements/widgets/header-footer/menu.php:588
+#: includes/elements/widgets/header-footer/menu.php:750
+#: includes/elements/widgets/header-footer/menu.php:894
+#: includes/elements/widgets/header-footer/menu.php:1050
+#: includes/elements/widgets/header-footer/menu.php:1183
+#: includes/elements/widgets/header-footer/menu.php:1321
+#: includes/elements/widgets/header-footer/menu.php:1435
+#: includes/elements/widgets/header-footer/menu.php:1591
+#: includes/elements/widgets/header-footer/menu.php:1724
+#: includes/elements/widgets/header-footer/menu.php:1862
+#: includes/elements/widgets/header-footer/menu.php:2063
+#: includes/elements/widgets/header-footer/menu.php:2176
+#: includes/elements/widgets/header-footer/menu.php:2313
+#: includes/elements/widgets/header-footer/menu.php:2426
+#: includes/elements/widgets/header-footer/menu.php:2536
+#: includes/elements/widgets/header-footer/menu.php:2693
+#: includes/elements/widgets/header-footer/menu.php:2916
+#: includes/elements/widgets/header-footer/menu.php:3037
+#: includes/elements/widgets/header-footer/menu.php:3194
+#: includes/elements/widgets/header-footer/menu.php:3417
+#: includes/elements/widgets/header-footer/menu.php:3553
+#: includes/elements/widgets/header-footer/menu.php:3710
+#: includes/elements/widgets/header-footer/menu.php:3933
+#: includes/elements/widgets/header-footer/menu.php:4055
+#: includes/elements/widgets/header-footer/menu.php:4212
+#: includes/elements/widgets/header-footer/menu.php:4435
+#: includes/elements/widgets/header-footer/news-ticker.php:188
+#: includes/elements/widgets/header-footer/news-ticker.php:296
+#: includes/elements/widgets/header-footer/news-ticker.php:380
+#: includes/elements/widgets/header-footer/news-ticker.php:488
+#: includes/elements/widgets/header-footer/posts-thumbs.php:218
+#: includes/elements/widgets/header-footer/posts-thumbs.php:364
+#: includes/elements/widgets/header-footer/search.php:324
+#: includes/elements/widgets/header-footer/search.php:528
+#: includes/elements/widgets/header-footer/search.php:663
+#: includes/elements/widgets/header-footer/search.php:799
+#: includes/elements/widgets/header-footer/simple-icon.php:272
+#: includes/elements/widgets/header-footer/simple-icon.php:408
+#: includes/elements/widgets/header-footer/simple-icon.php:545
+#: includes/elements/widgets/header-footer/simple-icon.php:681
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:377
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:513
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:650
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:786
+#: includes/elements/widgets/icon-link.php:185
+#: includes/elements/widgets/single-archive/author-box.php:137
+#: includes/elements/widgets/single-archive/author-box.php:244
+#: includes/elements/widgets/single-archive/breadcrumb.php:188
+#: includes/elements/widgets/single-archive/breadcrumb.php:305
+#: includes/elements/widgets/single-archive/categories.php:135
+#: includes/elements/widgets/single-archive/categories.php:215
+#: includes/elements/widgets/single-archive/categories.php:296
+#: includes/elements/widgets/single-archive/categories.php:376
+#: includes/elements/widgets/single-archive/featured-image.php:275
+#: includes/elements/widgets/single-archive/next-prev.php:130
+#: includes/elements/widgets/single-archive/next-prev.php:229
+#: includes/elements/widgets/single-archive/share.php:182
+#: includes/elements/widgets/single-archive/share.php:318
+#: includes/elements/widgets/single-archive/share.php:453
+#: includes/elements/widgets/single-archive/share.php:589
+#: includes/elements/widgets/single-archive/tags.php:147
+#: includes/elements/widgets/single-archive/tags.php:204
+#: includes/elements/widgets/single-archive/tags.php:289
+#: includes/elements/widgets/single-archive/tags.php:400
+#: includes/elements/widgets/single-archive/tags.php:457
+#: includes/elements/widgets/single-archive/tags.php:542
+#: includes/elements/widgets/video-play-list.php:427
+#: includes/elements/widgets/video-play-list.php:540
+#: includes/elements/widgets/video-play-list.php:742
+#: includes/elements/widgets/video-play-list.php:830
+#: includes/elements/widgets/video-play-list.php:920
+#: includes/elements/widgets/video-play-list.php:1106
+#: includes/elements/widgets/video-play-list.php:1296
+#: includes/elements/widgets/video-play-list.php:1403
+#: includes/elements/widgets/video-play-list.php:1516
+#: includes/elements/widgets/video-play-list.php:1718
+#: includes/elements/widgets/video-play-list.php:1806
+#: includes/elements/widgets/video-play-list.php:1896
+#: includes/elements/widgets/video-play-list.php:2082
+#: includes/elements/widgets/video-play-list.php:2272
+#: includes/settings/settings-archive-and-search.php:139
+#: includes/settings/settings-boxes.php:94
+#: includes/settings/settings-boxes.php:164
+#: includes/settings/settings-post-single.php:175
+#: includes/settings/settings-post-single.php:303
+#: includes/settings/settings-post-single.php:363
+msgid "شعاع کادر"
+msgstr "Main border radius"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:283
+#: includes/elements/widgets/header-footer/dark-mode.php:419
+#: includes/elements/widgets/header-footer/dark-mode.php:556
+#: includes/elements/widgets/header-footer/dark-mode.php:692
+#: includes/elements/widgets/header-footer/news-ticker.php:308
+#: includes/elements/widgets/header-footer/news-ticker.php:500
+#: includes/elements/widgets/header-footer/posts-thumbs.php:230
+#: includes/elements/widgets/header-footer/posts-thumbs.php:376
+#: includes/elements/widgets/header-footer/search.php:343
+#: includes/elements/widgets/header-footer/search.php:547
+#: includes/elements/widgets/header-footer/search.php:682
+#: includes/elements/widgets/header-footer/search.php:818
+#: includes/elements/widgets/header-footer/simple-icon.php:291
+#: includes/elements/widgets/header-footer/simple-icon.php:427
+#: includes/elements/widgets/header-footer/simple-icon.php:564
+#: includes/elements/widgets/header-footer/simple-icon.php:700
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:396
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:532
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:669
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:805
+#: includes/elements/widgets/icon-link.php:205
+#: includes/elements/widgets/single-archive/breadcrumb.php:200
+#: includes/elements/widgets/single-archive/breadcrumb.php:317
+#: includes/elements/widgets/single-archive/share.php:201
+#: includes/elements/widgets/single-archive/share.php:337
+#: includes/elements/widgets/single-archive/share.php:472
+#: includes/elements/widgets/single-archive/share.php:608
+msgid "فاصله داخلی کلی"
+msgstr "Main padding"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:295
+#: includes/elements/widgets/header-footer/dark-mode.php:431
+#: includes/elements/widgets/header-footer/dark-mode.php:568
+#: includes/elements/widgets/header-footer/dark-mode.php:704
+#: includes/elements/widgets/header-footer/search.php:355
+#: includes/elements/widgets/header-footer/search.php:559
+#: includes/elements/widgets/header-footer/search.php:694
+#: includes/elements/widgets/header-footer/search.php:830
+#: includes/elements/widgets/header-footer/simple-icon.php:303
+#: includes/elements/widgets/header-footer/simple-icon.php:439
+#: includes/elements/widgets/header-footer/simple-icon.php:576
+#: includes/elements/widgets/header-footer/simple-icon.php:712
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:408
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:544
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:681
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:817
+#: includes/elements/widgets/single-archive/share.php:213
+#: includes/elements/widgets/single-archive/share.php:349
+#: includes/elements/widgets/single-archive/share.php:484
+#: includes/elements/widgets/single-archive/share.php:620
+msgid "فاصله خارجی کلی"
+msgstr "Main margin"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:310
+#: includes/elements/widgets/header-footer/hot-topics.php:360
+#: includes/elements/widgets/header-footer/logo.php:315
+#: includes/elements/widgets/header-footer/menu.php:321
+#: includes/elements/widgets/header-footer/menu.php:1127
+#: includes/elements/widgets/header-footer/menu.php:2086
+#: includes/elements/widgets/header-footer/search.php:438
+#: includes/elements/widgets/header-footer/simple-icon.php:318
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:423
+#: includes/elements/widgets/single-archive/categories.php:161
+#: includes/elements/widgets/single-archive/featured-image.php:341
+#: includes/elements/widgets/single-archive/share.php:228
+#: includes/elements/widgets/single-archive/tags.php:230
+#: includes/elements/widgets/video-play-list.php:779
+#: includes/elements/widgets/video-play-list.php:1755
+#: includes/settings/settings-post-single.php:326
+msgid "هاور"
+msgstr "Hover"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:317
+#: includes/elements/widgets/header-footer/search.php:445
+#: includes/elements/widgets/header-footer/simple-icon.php:325
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:430
+#: includes/elements/widgets/single-archive/share.php:235
+msgid "استایل آیکن (هاور)"
+msgstr "icon style (hover)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:365
+#: includes/elements/widgets/header-footer/search.php:493
+#: includes/elements/widgets/header-footer/simple-icon.php:373
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:478
+#: includes/elements/widgets/single-archive/share.php:283
+msgid "استایل باکس آیکن (هاور)"
+msgstr "style box icon (hover)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:454
+#: includes/elements/widgets/header-footer/simple-icon.php:462
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:567
+msgid "استایل آیکن (دارک)"
+msgstr "Icon style (dark)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:502
+#: includes/elements/widgets/header-footer/simple-icon.php:510
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:615
+msgid "استایل باکس آیکن (دارک)"
+msgstr "Icon style box (dark)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:590
+#: includes/elements/widgets/header-footer/search.php:716
+#: includes/elements/widgets/header-footer/simple-icon.php:598
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:703
+#: includes/elements/widgets/single-archive/share.php:506
+msgid "استایل آیکن (هاور دارک)"
+msgstr "Icon style (hover dark)"
+
+#: includes/elements/widgets/header-footer/dark-mode.php:638
+#: includes/elements/widgets/header-footer/search.php:764
+#: includes/elements/widgets/header-footer/simple-icon.php:646
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:751
+#: includes/elements/widgets/single-archive/share.php:554
+msgid "استایل باکس آیکن (هاور دارک)"
+msgstr "Icon style box (hover dark)"
+
+#: includes/elements/widgets/header-footer/date.php:40
+msgid "j F Y"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/date.php:48
+#: includes/elements/widgets/header-footer/search.php:131
+#: includes/elements/widgets/header-footer/simple-icon.php:39
+#: includes/elements/widgets/heading.php:48
+#: includes/elements/widgets/icon-link.php:48
+#: includes/elements/widgets/single-archive/share.php:39
+msgid "آیکن"
+msgstr "icon"
+
+#: includes/elements/widgets/header-footer/date.php:108
+msgid "استایل تاریخ (عادی)"
+msgstr "Date Style (Normal)"
+
+#: includes/elements/widgets/header-footer/date.php:117
+#: includes/elements/widgets/header-footer/date.php:201
+#: includes/elements/widgets/header-footer/posts-thumbs.php:155
+#: includes/elements/widgets/header-footer/posts-thumbs.php:301
+msgid "تایپوگرافی تاریخ"
+msgstr "History typography"
+
+#: includes/elements/widgets/header-footer/date.php:125
+#: includes/elements/widgets/header-footer/date.php:209
+#: includes/elements/widgets/header-footer/posts-thumbs.php:162
+#: includes/elements/widgets/header-footer/posts-thumbs.php:308
+msgid "رنگ تاریخ"
+msgstr "color of history"
+
+#: includes/elements/widgets/header-footer/date.php:164
+#: includes/elements/widgets/header-footer/date.php:248
+msgid "فاصله آیکن"
+msgstr "Icon spacing"
+
+#: includes/elements/widgets/header-footer/date.php:192
+msgid "استایل تاریخ (دارک مود)"
+msgstr "Date Style (dark mode)"
+
+#: includes/elements/widgets/header-footer/date.php:220
+#: includes/elements/widgets/header-footer/search.php:580
+#: includes/elements/widgets/single-archive/share.php:370
+msgid "استایل آیکن (دارک مود)"
+msgstr "Icon style (dark mode)"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:12
+#: includes/elements/widgets/header-footer/hot-topics.php:54
+msgid "موضوعات پرطرفدار"
+msgstr "Popular topics"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:35
+msgid "تگ عنوان"
+msgstr "Title tag"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:39
+msgid "h1"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:40
+msgid "h2"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:41
+msgid "h3"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:42
+msgid "h4"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:43
+msgid "h5"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:44
+msgid "h6"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:45
+msgid "p"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/hot-topics.php:55
+msgid "عنوان خود را وارد کنید"
+msgstr "Enter your title"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:61
+msgid "تعداد دسته بندی"
+msgstr "Number of categories"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:99
+#: includes/elements/widgets/header-footer/hot-topics.php:183
+#: includes/elements/widgets/header-footer/hot-topics.php:258
+#: includes/elements/widgets/header-footer/hot-topics.php:345
+#: includes/elements/widgets/header-footer/hot-topics.php:420
+#: includes/elements/widgets/header-footer/hot-topics.php:495
+#: includes/elements/widgets/header-footer/hot-topics.php:570
+#: includes/elements/widgets/header-footer/menu.php:269
+#: includes/elements/widgets/header-footer/menu.php:431
+#: includes/elements/widgets/header-footer/menu.php:613
+#: includes/elements/widgets/header-footer/menu.php:775
+#: includes/elements/widgets/header-footer/menu.php:937
+#: includes/elements/widgets/header-footer/menu.php:1075
+#: includes/elements/widgets/header-footer/menu.php:1208
+#: includes/elements/widgets/header-footer/menu.php:1346
+#: includes/elements/widgets/header-footer/menu.php:1478
+#: includes/elements/widgets/header-footer/menu.php:1616
+#: includes/elements/widgets/header-footer/menu.php:1749
+#: includes/elements/widgets/header-footer/menu.php:1887
+#: includes/elements/widgets/header-footer/menu.php:2561
+#: includes/elements/widgets/header-footer/menu.php:2718
+#: includes/elements/widgets/header-footer/menu.php:2941
+#: includes/elements/widgets/header-footer/menu.php:3062
+#: includes/elements/widgets/header-footer/menu.php:3219
+#: includes/elements/widgets/header-footer/menu.php:3442
+#: includes/elements/widgets/header-footer/menu.php:3578
+#: includes/elements/widgets/header-footer/menu.php:3735
+#: includes/elements/widgets/header-footer/menu.php:3958
+#: includes/elements/widgets/header-footer/menu.php:4080
+#: includes/elements/widgets/header-footer/menu.php:4237
+#: includes/elements/widgets/header-footer/menu.php:4460
+#: includes/elements/widgets/single-archive/author-box.php:149
+#: includes/elements/widgets/single-archive/author-box.php:256
+#: includes/elements/widgets/single-archive/categories.php:147
+#: includes/elements/widgets/single-archive/categories.php:227
+#: includes/elements/widgets/single-archive/categories.php:308
+#: includes/elements/widgets/single-archive/categories.php:388
+#: includes/elements/widgets/single-archive/next-prev.php:142
+#: includes/elements/widgets/single-archive/next-prev.php:241
+#: includes/elements/widgets/single-archive/tags.php:159
+#: includes/elements/widgets/single-archive/tags.php:216
+#: includes/elements/widgets/single-archive/tags.php:301
+#: includes/elements/widgets/single-archive/tags.php:412
+#: includes/elements/widgets/single-archive/tags.php:469
+#: includes/elements/widgets/single-archive/tags.php:554
+#: includes/elements/widgets/video-play-list.php:447
+#: includes/elements/widgets/video-play-list.php:560
+#: includes/elements/widgets/video-play-list.php:762
+#: includes/elements/widgets/video-play-list.php:850
+#: includes/elements/widgets/video-play-list.php:940
+#: includes/elements/widgets/video-play-list.php:1126
+#: includes/elements/widgets/video-play-list.php:1316
+#: includes/elements/widgets/video-play-list.php:1423
+#: includes/elements/widgets/video-play-list.php:1536
+#: includes/elements/widgets/video-play-list.php:1738
+#: includes/elements/widgets/video-play-list.php:1826
+#: includes/elements/widgets/video-play-list.php:1916
+#: includes/elements/widgets/video-play-list.php:2102
+#: includes/elements/widgets/video-play-list.php:2292
+msgid "فاصله داخلی"
+msgstr "padding"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:113
+msgid "استایل عنوان"
+msgstr "Title style"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:130
+#: includes/elements/widgets/header-footer/hot-topics.php:205
+#: includes/elements/widgets/header-footer/news-ticker.php:146
+#: includes/elements/widgets/header-footer/news-ticker.php:338
+#: includes/elements/widgets/header-footer/posts-thumbs.php:117
+#: includes/elements/widgets/header-footer/posts-thumbs.php:263
+#: includes/elements/widgets/heading.php:73
+#: includes/elements/widgets/icon-link.php:129
+#: includes/elements/widgets/single-archive/tags.php:78
+#: includes/elements/widgets/single-archive/tags.php:331
+#: includes/elements/widgets/video-play-list.php:469
+#: includes/elements/widgets/video-play-list.php:698
+#: includes/elements/widgets/video-play-list.php:786
+#: includes/elements/widgets/video-play-list.php:876
+#: includes/elements/widgets/video-play-list.php:969
+#: includes/elements/widgets/video-play-list.php:1445
+#: includes/elements/widgets/video-play-list.php:1674
+#: includes/elements/widgets/video-play-list.php:1762
+#: includes/elements/widgets/video-play-list.php:1852
+#: includes/elements/widgets/video-play-list.php:1945
+#: includes/settings/settings-404.php:221
+#: includes/settings/settings-archive-and-search.php:168
+msgid "تایپوگرافی عنوان"
+msgstr "Title typography"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:137
+#: includes/elements/widgets/header-footer/hot-topics.php:212
+#: includes/elements/widgets/header-footer/news-ticker.php:153
+#: includes/elements/widgets/header-footer/news-ticker.php:345
+#: includes/elements/widgets/header-footer/posts-thumbs.php:124
+#: includes/elements/widgets/header-footer/posts-thumbs.php:270
+#: includes/elements/widgets/single-archive/tags.php:85
+#: includes/elements/widgets/single-archive/tags.php:338
+#: includes/elements/widgets/video-play-list.php:478
+#: includes/elements/widgets/video-play-list.php:707
+#: includes/elements/widgets/video-play-list.php:795
+#: includes/elements/widgets/video-play-list.php:885
+#: includes/elements/widgets/video-play-list.php:978
+#: includes/elements/widgets/video-play-list.php:1454
+#: includes/elements/widgets/video-play-list.php:1683
+#: includes/elements/widgets/video-play-list.php:1771
+#: includes/elements/widgets/video-play-list.php:1861
+#: includes/elements/widgets/video-play-list.php:1954
+msgid "رنگ عنوان"
+msgstr "title color"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:148
+#: includes/elements/widgets/header-footer/hot-topics.php:223
+#: includes/elements/widgets/header-footer/news-ticker.php:164
+#: includes/elements/widgets/header-footer/news-ticker.php:356
+msgid "پس زمینه عنوان"
+msgstr "Title background"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:157
+#: includes/elements/widgets/header-footer/hot-topics.php:232
+#: includes/elements/widgets/header-footer/news-ticker.php:173
+#: includes/elements/widgets/header-footer/news-ticker.php:365
+msgid "کادر دور عنوان"
+msgstr "Title border"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:165
+#: includes/elements/widgets/header-footer/hot-topics.php:240
+#: includes/elements/widgets/header-footer/news-ticker.php:181
+#: includes/elements/widgets/header-footer/news-ticker.php:373
+msgid "سایه کادر عنوان"
+msgstr "Title boxshadow"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:275
+msgid "استایل دسته ها"
+msgstr "Categories style"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:292
+#: includes/elements/widgets/header-footer/hot-topics.php:367
+#: includes/elements/widgets/header-footer/hot-topics.php:442
+#: includes/elements/widgets/header-footer/hot-topics.php:517
+msgid "تایپوگرافی دسته ها"
+msgstr "Categories typography"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:299
+#: includes/elements/widgets/header-footer/hot-topics.php:374
+#: includes/elements/widgets/header-footer/hot-topics.php:449
+#: includes/elements/widgets/header-footer/hot-topics.php:524
+msgid "رنگ دسته ها"
+msgstr "Categories color"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:310
+#: includes/elements/widgets/header-footer/hot-topics.php:385
+#: includes/elements/widgets/header-footer/hot-topics.php:460
+#: includes/elements/widgets/header-footer/hot-topics.php:535
+msgid "پس زمینه دسته ها"
+msgstr "Categories background"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:319
+#: includes/elements/widgets/header-footer/hot-topics.php:394
+#: includes/elements/widgets/header-footer/hot-topics.php:469
+#: includes/elements/widgets/header-footer/hot-topics.php:544
+msgid "کادر دور دسته ها"
+msgstr "Categories border"
+
+#: includes/elements/widgets/header-footer/hot-topics.php:327
+#: includes/elements/widgets/header-footer/hot-topics.php:402
+#: includes/elements/widgets/header-footer/hot-topics.php:477
+#: includes/elements/widgets/header-footer/hot-topics.php:552
+msgid "سایه کادر دسته ها"
+msgstr "Categories boxshadow"
+
+#: includes/elements/widgets/header-footer/logo.php:10
+msgid "لوگو"
+msgstr "Logo"
+
+#: includes/elements/widgets/header-footer/logo.php:39
+msgid "لوگو حالت روشن"
+msgstr "Light mode logo"
+
+#: includes/elements/widgets/header-footer/logo.php:52
+msgid "لوگو حالت تیره"
+msgstr "Dark mode logo"
+
+#: includes/elements/widgets/header-footer/logo.php:145
+#: includes/elements/widgets/single-archive/featured-image.php:143
+msgid "حداکثر عرض"
+msgstr "Maximum width"
+
+#: includes/elements/widgets/header-footer/logo.php:211
+#: includes/elements/widgets/single-archive/featured-image.php:240
+#: includes/settings/settings-404.php:190
+msgid "متناسب با Object"
+msgstr "Object-fit"
+
+#: includes/elements/widgets/header-footer/logo.php:217
+#: includes/elements/widgets/single-archive/featured-image.php:243
+#: includes/settings/settings-404.php:196
+msgid "پیش فرض"
+msgstr "Default"
+
+#: includes/elements/widgets/header-footer/logo.php:218
+#: includes/elements/widgets/single-archive/featured-image.php:244
+#: includes/settings/settings-404.php:197
+msgid "پر"
+msgstr "Fill"
+
+#: includes/elements/widgets/header-footer/logo.php:219
+#: includes/elements/widgets/single-archive/featured-image.php:245
+#: includes/settings/settings-404.php:198
+msgid "پوشش"
+msgstr "Cover"
+
+#: includes/elements/widgets/header-footer/logo.php:220
+#: includes/elements/widgets/single-archive/featured-image.php:246
+#: includes/settings/settings-404.php:199
+msgid "دربرگیرنده"
+msgstr "Contain"
+
+#: includes/elements/widgets/header-footer/logo.php:281
+#: includes/elements/widgets/single-archive/featured-image.php:307
+msgid "نرمال"
+msgstr "Normal"
+
+#: includes/elements/widgets/header-footer/logo.php:288
+#: includes/elements/widgets/header-footer/logo.php:322
+#: includes/elements/widgets/single-archive/featured-image.php:314
+#: includes/elements/widgets/single-archive/featured-image.php:348
+msgid "شفافیت"
+msgstr "transparency"
+
+#: includes/elements/widgets/header-footer/logo.php:348
+#: includes/elements/widgets/header-footer/menu.php:484
+#: includes/elements/widgets/header-footer/menu.php:828
+#: includes/elements/widgets/header-footer/menu.php:1134
+#: includes/elements/widgets/header-footer/menu.php:1675
+#: includes/elements/widgets/header-footer/menu.php:2201
+#: includes/elements/widgets/header-footer/menu.php:2451
+#: includes/elements/widgets/header-footer/menu.php:2788
+#: includes/elements/widgets/header-footer/menu.php:3289
+#: includes/elements/widgets/header-footer/menu.php:3805
+#: includes/elements/widgets/header-footer/menu.php:4307
+#: includes/elements/widgets/single-archive/featured-image.php:374
+msgid "مدت زمان جابجایی"
+msgstr "Duration"
+
+#: includes/elements/widgets/header-footer/logo.php:365
+#: includes/elements/widgets/icon-link.php:217
+#: includes/elements/widgets/single-archive/featured-image.php:391
+msgid "انیمیشن هاور"
+msgstr "Hover animation"
+
+#: includes/elements/widgets/header-footer/menu.php:10
+msgid "منو"
+msgstr "Menu"
+
+#: includes/elements/widgets/header-footer/menu.php:41
+msgid "کلی"
+msgstr "general"
+
+#: includes/elements/widgets/header-footer/menu.php:52
+msgid "منو دسکتاپ"
+msgstr "desktop menu"
+
+#: includes/elements/widgets/header-footer/menu.php:63
+msgid "منو موبایل"
+msgstr "mobile menu"
+
+#: includes/elements/widgets/header-footer/menu.php:75
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:83
+#, php-format
+msgid "برای مدیریت منو های خود به %1$sصفحه منو ها%2$s مراجعه کنید"
+msgstr "To manage your menus, visit the %1$sMenus page%2$s"
+
+#: includes/elements/widgets/header-footer/menu.php:88
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:97
+msgid "شما تا کنون هیچ منویی ایجاد نکرده اید"
+msgstr "You have not created any menus yet"
+
+#. translators: 1: Link open tag, 2: Link closing tag.
+#: includes/elements/widgets/header-footer/menu.php:91
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:100
+#, php-format
+msgid "برای ایجاد یک منو به %1$sصفحه منو ها%2$s مراجعه کنید."
+msgstr "To create a new menu, visit the %1$sMenus page%2$s ."
+
+#: includes/elements/widgets/header-footer/menu.php:104
+msgid "آیکن منو موبایل"
+msgstr "Mobile menu icon"
+
+#: includes/elements/widgets/header-footer/menu.php:149
+msgid "منو اصلی (دسکتاپ)"
+msgstr "main menu (desktop)"
+
+#: includes/elements/widgets/header-footer/menu.php:168
+#: includes/elements/widgets/header-footer/menu.php:330
+#: includes/elements/widgets/header-footer/menu.php:512
+#: includes/elements/widgets/header-footer/menu.php:674
+#: includes/elements/widgets/header-footer/menu.php:974
+#: includes/elements/widgets/header-footer/menu.php:1245
+#: includes/elements/widgets/header-footer/menu.php:1515
+#: includes/elements/widgets/header-footer/menu.php:1786
+#: includes/elements/widgets/header-footer/menu.php:1980
+#: includes/elements/widgets/header-footer/menu.php:2093
+#: includes/elements/widgets/header-footer/menu.php:2230
+#: includes/elements/widgets/header-footer/menu.php:2343
+#: includes/elements/widgets/header-footer/menu.php:2598
+#: includes/elements/widgets/header-footer/menu.php:2821
+#: includes/elements/widgets/header-footer/menu.php:3099
+#: includes/elements/widgets/header-footer/menu.php:3322
+#: includes/elements/widgets/header-footer/menu.php:3615
+#: includes/elements/widgets/header-footer/menu.php:3838
+#: includes/elements/widgets/header-footer/menu.php:4117
+#: includes/elements/widgets/header-footer/menu.php:4340
+#: includes/elements/widgets/video-play-list.php:1062
+#: includes/elements/widgets/video-play-list.php:2038
+msgid "تایپوگرافی"
+msgstr "typography"
+
+#: includes/elements/widgets/header-footer/menu.php:176
+#: includes/elements/widgets/header-footer/menu.php:338
+#: includes/elements/widgets/header-footer/menu.php:520
+#: includes/elements/widgets/header-footer/menu.php:682
+#: includes/elements/widgets/header-footer/menu.php:982
+#: includes/elements/widgets/header-footer/menu.php:1253
+#: includes/elements/widgets/header-footer/menu.php:1523
+#: includes/elements/widgets/header-footer/menu.php:1794
+#: includes/elements/widgets/header-footer/menu.php:2606
+#: includes/elements/widgets/header-footer/menu.php:2829
+#: includes/elements/widgets/header-footer/menu.php:3107
+#: includes/elements/widgets/header-footer/menu.php:3330
+#: includes/elements/widgets/header-footer/menu.php:3623
+#: includes/elements/widgets/header-footer/menu.php:3846
+#: includes/elements/widgets/header-footer/menu.php:4125
+#: includes/elements/widgets/header-footer/menu.php:4348
+msgid "اندازه آیکن فلش"
+msgstr "Flash icon size"
+
+#: includes/elements/widgets/header-footer/menu.php:201
+#: includes/elements/widgets/header-footer/menu.php:363
+#: includes/elements/widgets/header-footer/menu.php:545
+#: includes/elements/widgets/header-footer/menu.php:707
+#: includes/elements/widgets/header-footer/menu.php:1007
+#: includes/elements/widgets/header-footer/menu.php:1278
+#: includes/elements/widgets/header-footer/menu.php:1548
+#: includes/elements/widgets/header-footer/menu.php:1819
+#: includes/elements/widgets/header-footer/menu.php:1988
+#: includes/elements/widgets/header-footer/menu.php:2101
+#: includes/elements/widgets/header-footer/menu.php:2238
+#: includes/elements/widgets/header-footer/menu.php:2351
+#: includes/elements/widgets/header-footer/menu.php:2650
+#: includes/elements/widgets/header-footer/menu.php:2873
+#: includes/elements/widgets/header-footer/menu.php:3151
+#: includes/elements/widgets/header-footer/menu.php:3374
+#: includes/elements/widgets/header-footer/menu.php:3667
+#: includes/elements/widgets/header-footer/menu.php:3890
+#: includes/elements/widgets/header-footer/menu.php:4169
+#: includes/elements/widgets/header-footer/menu.php:4392
+#: includes/elements/widgets/video-play-list.php:1071
+#: includes/elements/widgets/video-play-list.php:2047
+#: includes/wp-category-color.php:95
+msgid "رنگ"
+msgstr "Color"
+
+#: includes/elements/widgets/header-footer/menu.php:211
+#: includes/elements/widgets/header-footer/menu.php:373
+#: includes/elements/widgets/header-footer/menu.php:555
+#: includes/elements/widgets/header-footer/menu.php:717
+#: includes/elements/widgets/header-footer/menu.php:1017
+#: includes/elements/widgets/header-footer/menu.php:1288
+#: includes/elements/widgets/header-footer/menu.php:1558
+#: includes/elements/widgets/header-footer/menu.php:1829
+#: includes/elements/widgets/header-footer/menu.php:2660
+#: includes/elements/widgets/header-footer/menu.php:2883
+#: includes/elements/widgets/header-footer/menu.php:3161
+#: includes/elements/widgets/header-footer/menu.php:3384
+#: includes/elements/widgets/header-footer/menu.php:3677
+#: includes/elements/widgets/header-footer/menu.php:3900
+#: includes/elements/widgets/header-footer/menu.php:4179
+#: includes/elements/widgets/header-footer/menu.php:4402
+msgid "رنگ فلش"
+msgstr "arrow color"
+
+#: includes/elements/widgets/header-footer/menu.php:228
+#: includes/elements/widgets/header-footer/menu.php:390
+#: includes/elements/widgets/header-footer/menu.php:572
+#: includes/elements/widgets/header-footer/menu.php:734
+#: includes/elements/widgets/header-footer/menu.php:878
+#: includes/elements/widgets/header-footer/menu.php:1034
+#: includes/elements/widgets/header-footer/menu.php:1167
+#: includes/elements/widgets/header-footer/menu.php:1305
+#: includes/elements/widgets/header-footer/menu.php:1419
+#: includes/elements/widgets/header-footer/menu.php:1575
+#: includes/elements/widgets/header-footer/menu.php:1708
+#: includes/elements/widgets/header-footer/menu.php:1846
+#: includes/elements/widgets/header-footer/menu.php:2047
+#: includes/elements/widgets/header-footer/menu.php:2160
+#: includes/elements/widgets/header-footer/menu.php:2297
+#: includes/elements/widgets/header-footer/menu.php:2410
+#: includes/elements/widgets/header-footer/menu.php:2520
+#: includes/elements/widgets/header-footer/menu.php:2677
+#: includes/elements/widgets/header-footer/menu.php:2900
+#: includes/elements/widgets/header-footer/menu.php:3021
+#: includes/elements/widgets/header-footer/menu.php:3178
+#: includes/elements/widgets/header-footer/menu.php:3401
+#: includes/elements/widgets/header-footer/menu.php:3537
+#: includes/elements/widgets/header-footer/menu.php:3694
+#: includes/elements/widgets/header-footer/menu.php:3917
+#: includes/elements/widgets/header-footer/menu.php:4039
+#: includes/elements/widgets/header-footer/menu.php:4196
+#: includes/elements/widgets/header-footer/menu.php:4419
+#: includes/elements/widgets/icon-link.php:169
+#: includes/elements/widgets/single-archive/author-box.php:112
+#: includes/elements/widgets/single-archive/author-box.php:219
+#: includes/elements/widgets/single-archive/next-prev.php:105
+#: includes/elements/widgets/single-archive/next-prev.php:204
+#: includes/elements/widgets/single-archive/tags.php:122
+#: includes/elements/widgets/single-archive/tags.php:179
+#: includes/elements/widgets/single-archive/tags.php:264
+#: includes/elements/widgets/single-archive/tags.php:375
+#: includes/elements/widgets/single-archive/tags.php:432
+#: includes/elements/widgets/single-archive/tags.php:517
+#: includes/elements/widgets/video-play-list.php:411
+#: includes/elements/widgets/video-play-list.php:524
+#: includes/elements/widgets/video-play-list.php:726
+#: includes/elements/widgets/video-play-list.php:814
+#: includes/elements/widgets/video-play-list.php:904
+#: includes/elements/widgets/video-play-list.php:1090
+#: includes/elements/widgets/video-play-list.php:1280
+#: includes/elements/widgets/video-play-list.php:1387
+#: includes/elements/widgets/video-play-list.php:1500
+#: includes/elements/widgets/video-play-list.php:1702
+#: includes/elements/widgets/video-play-list.php:1790
+#: includes/elements/widgets/video-play-list.php:1880
+#: includes/elements/widgets/video-play-list.php:2066
+#: includes/elements/widgets/video-play-list.php:2256
+#: includes/settings/settings-boxes.php:54
+#: includes/settings/settings-boxes.php:146
+#: includes/settings/settings-post-single.php:157
+#: includes/settings/settings-post-single.php:285
+#: includes/settings/settings-post-single.php:345
+msgid "پس زمینه"
+msgstr "background"
+
+#: includes/elements/widgets/header-footer/menu.php:237
+#: includes/elements/widgets/header-footer/menu.php:399
+#: includes/elements/widgets/header-footer/menu.php:581
+#: includes/elements/widgets/header-footer/menu.php:743
+#: includes/elements/widgets/header-footer/menu.php:887
+#: includes/elements/widgets/header-footer/menu.php:1043
+#: includes/elements/widgets/header-footer/menu.php:1176
+#: includes/elements/widgets/header-footer/menu.php:1314
+#: includes/elements/widgets/header-footer/menu.php:1428
+#: includes/elements/widgets/header-footer/menu.php:1584
+#: includes/elements/widgets/header-footer/menu.php:1717
+#: includes/elements/widgets/header-footer/menu.php:1855
+#: includes/elements/widgets/header-footer/menu.php:2056
+#: includes/elements/widgets/header-footer/menu.php:2169
+#: includes/elements/widgets/header-footer/menu.php:2306
+#: includes/elements/widgets/header-footer/menu.php:2419
+#: includes/elements/widgets/header-footer/menu.php:2529
+#: includes/elements/widgets/header-footer/menu.php:2686
+#: includes/elements/widgets/header-footer/menu.php:2909
+#: includes/elements/widgets/header-footer/menu.php:3030
+#: includes/elements/widgets/header-footer/menu.php:3187
+#: includes/elements/widgets/header-footer/menu.php:3410
+#: includes/elements/widgets/header-footer/menu.php:3546
+#: includes/elements/widgets/header-footer/menu.php:3703
+#: includes/elements/widgets/header-footer/menu.php:3926
+#: includes/elements/widgets/header-footer/menu.php:4048
+#: includes/elements/widgets/header-footer/menu.php:4205
+#: includes/elements/widgets/header-footer/menu.php:4428
+#: includes/elements/widgets/icon-link.php:178
+#: includes/elements/widgets/single-archive/author-box.php:121
+#: includes/elements/widgets/single-archive/author-box.php:228
+#: includes/elements/widgets/single-archive/categories.php:119
+#: includes/elements/widgets/single-archive/categories.php:199
+#: includes/elements/widgets/single-archive/categories.php:280
+#: includes/elements/widgets/single-archive/categories.php:360
+#: includes/elements/widgets/single-archive/next-prev.php:114
+#: includes/elements/widgets/single-archive/next-prev.php:213
+#: includes/elements/widgets/single-archive/tags.php:131
+#: includes/elements/widgets/single-archive/tags.php:188
+#: includes/elements/widgets/single-archive/tags.php:273
+#: includes/elements/widgets/single-archive/tags.php:384
+#: includes/elements/widgets/single-archive/tags.php:441
+#: includes/elements/widgets/single-archive/tags.php:526
+#: includes/elements/widgets/video-play-list.php:420
+#: includes/elements/widgets/video-play-list.php:533
+#: includes/elements/widgets/video-play-list.php:735
+#: includes/elements/widgets/video-play-list.php:823
+#: includes/elements/widgets/video-play-list.php:913
+#: includes/elements/widgets/video-play-list.php:1099
+#: includes/elements/widgets/video-play-list.php:1289
+#: includes/elements/widgets/video-play-list.php:1396
+#: includes/elements/widgets/video-play-list.php:1509
+#: includes/elements/widgets/video-play-list.php:1711
+#: includes/elements/widgets/video-play-list.php:1799
+#: includes/elements/widgets/video-play-list.php:1889
+#: includes/elements/widgets/video-play-list.php:2075
+#: includes/elements/widgets/video-play-list.php:2265
+#: includes/settings/settings-archive-and-search.php:131
+#: includes/settings/settings-boxes.php:75
+#: includes/settings/settings-boxes.php:156
+#: includes/settings/settings-post-single.php:167
+#: includes/settings/settings-post-single.php:295
+#: includes/settings/settings-post-single.php:355
+msgid "کادر دور"
+msgstr "Border"
+
+#: includes/elements/widgets/header-footer/menu.php:256
+#: includes/elements/widgets/header-footer/menu.php:418
+#: includes/elements/widgets/header-footer/menu.php:600
+#: includes/elements/widgets/header-footer/menu.php:762
+#: includes/elements/widgets/header-footer/menu.php:906
+#: includes/elements/widgets/header-footer/menu.php:1062
+#: includes/elements/widgets/header-footer/menu.php:1195
+#: includes/elements/widgets/header-footer/menu.php:1333
+#: includes/elements/widgets/header-footer/menu.php:1447
+#: includes/elements/widgets/header-footer/menu.php:1603
+#: includes/elements/widgets/header-footer/menu.php:1736
+#: includes/elements/widgets/header-footer/menu.php:1874
+#: includes/elements/widgets/header-footer/menu.php:2075
+#: includes/elements/widgets/header-footer/menu.php:2188
+#: includes/elements/widgets/header-footer/menu.php:2325
+#: includes/elements/widgets/header-footer/menu.php:2438
+#: includes/elements/widgets/header-footer/menu.php:2548
+#: includes/elements/widgets/header-footer/menu.php:2705
+#: includes/elements/widgets/header-footer/menu.php:2928
+#: includes/elements/widgets/header-footer/menu.php:3049
+#: includes/elements/widgets/header-footer/menu.php:3206
+#: includes/elements/widgets/header-footer/menu.php:3429
+#: includes/elements/widgets/header-footer/menu.php:3565
+#: includes/elements/widgets/header-footer/menu.php:3722
+#: includes/elements/widgets/header-footer/menu.php:3945
+#: includes/elements/widgets/header-footer/menu.php:4067
+#: includes/elements/widgets/header-footer/menu.php:4224
+#: includes/elements/widgets/header-footer/menu.php:4447
+#: includes/elements/widgets/icon-link.php:197
+#: includes/elements/widgets/video-play-list.php:439
+#: includes/elements/widgets/video-play-list.php:552
+#: includes/elements/widgets/video-play-list.php:754
+#: includes/elements/widgets/video-play-list.php:842
+#: includes/elements/widgets/video-play-list.php:932
+#: includes/elements/widgets/video-play-list.php:1118
+#: includes/elements/widgets/video-play-list.php:1308
+#: includes/elements/widgets/video-play-list.php:1415
+#: includes/elements/widgets/video-play-list.php:1528
+#: includes/elements/widgets/video-play-list.php:1730
+#: includes/elements/widgets/video-play-list.php:1818
+#: includes/elements/widgets/video-play-list.php:1908
+#: includes/elements/widgets/video-play-list.php:2094
+#: includes/elements/widgets/video-play-list.php:2284
+#: includes/settings/settings-archive-and-search.php:152
+#: includes/settings/settings-boxes.php:118
+#: includes/settings/settings-boxes.php:177
+#: includes/settings/settings-post-single.php:188
+#: includes/settings/settings-post-single.php:316
+#: includes/settings/settings-post-single.php:376
+msgid "سایه"
+msgstr "Boxshadow"
+
+#: includes/elements/widgets/header-footer/menu.php:280
+#: includes/elements/widgets/header-footer/menu.php:442
+#: includes/elements/widgets/header-footer/menu.php:624
+#: includes/elements/widgets/header-footer/menu.php:786
+#: includes/elements/widgets/header-footer/menu.php:948
+#: includes/elements/widgets/header-footer/menu.php:1086
+#: includes/elements/widgets/header-footer/menu.php:1219
+#: includes/elements/widgets/header-footer/menu.php:1357
+#: includes/elements/widgets/header-footer/menu.php:1489
+#: includes/elements/widgets/header-footer/menu.php:1627
+#: includes/elements/widgets/header-footer/menu.php:1760
+#: includes/elements/widgets/header-footer/menu.php:1898
+#: includes/elements/widgets/header-footer/menu.php:2572
+#: includes/elements/widgets/header-footer/menu.php:2729
+#: includes/elements/widgets/header-footer/menu.php:2952
+#: includes/elements/widgets/header-footer/menu.php:3073
+#: includes/elements/widgets/header-footer/menu.php:3230
+#: includes/elements/widgets/header-footer/menu.php:3453
+#: includes/elements/widgets/header-footer/menu.php:3589
+#: includes/elements/widgets/header-footer/menu.php:3746
+#: includes/elements/widgets/header-footer/menu.php:3970
+#: includes/elements/widgets/header-footer/menu.php:4091
+#: includes/elements/widgets/header-footer/menu.php:4248
+#: includes/elements/widgets/header-footer/menu.php:4472
+#: includes/elements/widgets/video-play-list.php:572
+#: includes/elements/widgets/video-play-list.php:1548
+msgid "فاصله خارجی"
+msgstr "margin"
+
+#: includes/elements/widgets/header-footer/menu.php:298
+#: includes/elements/widgets/header-footer/menu.php:459
+#: includes/elements/widgets/header-footer/menu.php:642
+#: includes/elements/widgets/header-footer/menu.php:803
+#: includes/elements/widgets/header-footer/menu.php:1104
+#: includes/elements/widgets/header-footer/menu.php:1375
+#: includes/elements/widgets/header-footer/menu.php:1645
+#: includes/elements/widgets/header-footer/menu.php:1916
+#: includes/elements/widgets/header-footer/menu.php:2758
+#: includes/elements/widgets/header-footer/menu.php:2981
+#: includes/elements/widgets/header-footer/menu.php:3259
+#: includes/elements/widgets/header-footer/menu.php:3482
+#: includes/elements/widgets/header-footer/menu.php:3775
+#: includes/elements/widgets/header-footer/menu.php:3999
+#: includes/elements/widgets/header-footer/menu.php:4277
+#: includes/elements/widgets/header-footer/menu.php:4501
+msgid "فاصله منو های دارای زیرمنو از فلش"
+msgstr "parent menu space from arrow"
+
+#: includes/elements/widgets/header-footer/menu.php:851
+msgid "زیرمنو (دسکتاپ)"
+msgstr "submenu (desktop)"
+
+#: includes/elements/widgets/header-footer/menu.php:869
+#: includes/elements/widgets/header-footer/menu.php:1410
+#: includes/elements/widgets/header-footer/menu.php:3528
+#: includes/elements/widgets/header-footer/menu.php:4030
+msgid "باکس کلی زیرمنو"
+msgstr "The general box of the sub-menu"
+
+#: includes/elements/widgets/header-footer/menu.php:913
+#: includes/elements/widgets/header-footer/menu.php:1454
+msgid "فاصله زیرمنو از بالا"
+msgstr "Submenu margin from top"
+
+#: includes/elements/widgets/header-footer/menu.php:966
+#: includes/elements/widgets/header-footer/menu.php:1507
+#: includes/elements/widgets/header-footer/menu.php:3607
+#: includes/elements/widgets/header-footer/menu.php:4109
+msgid "آیتم زیرمنو"
+msgstr "Submenu item"
+
+#: includes/elements/widgets/header-footer/menu.php:1158
+#: includes/elements/widgets/header-footer/menu.php:1699
+msgid "باکس کلی زیرمنو (هاور)"
+msgstr "General sub-menu box (hover)"
+
+#: includes/elements/widgets/header-footer/menu.php:1237
+#: includes/elements/widgets/header-footer/menu.php:1778
+msgid "آیتم زیرمنو (هاور)"
+msgstr "submenu item (hover)"
+
+#: includes/elements/widgets/header-footer/menu.php:1962
+msgid "دکمه تغییر وضعیت (موبایل)"
+msgstr "toggle button (mobile)"
+
+#: includes/elements/widgets/header-footer/menu.php:2004
+#: includes/elements/widgets/header-footer/menu.php:2117
+#: includes/elements/widgets/header-footer/menu.php:2254
+#: includes/elements/widgets/header-footer/menu.php:2367
+msgid "عرض دکمه"
+msgstr "Button width"
+
+#: includes/elements/widgets/header-footer/menu.php:2022
+#: includes/elements/widgets/header-footer/menu.php:2135
+#: includes/elements/widgets/header-footer/menu.php:2272
+#: includes/elements/widgets/header-footer/menu.php:2385
+msgid "ارتفاع دکمه"
+msgstr "Button height"
+
+#: includes/elements/widgets/header-footer/menu.php:2488
+msgid "منو اصلی (موبایل)"
+msgstr "main menu (mobile)"
+
+#: includes/elements/widgets/header-footer/menu.php:2511
+#: includes/elements/widgets/header-footer/menu.php:3012
+msgid "باکس کلی منو اصلی"
+msgstr "general box of the main menu"
+
+#: includes/elements/widgets/header-footer/menu.php:2590
+#: includes/elements/widgets/header-footer/menu.php:3091
+msgid "آیتم منو"
+msgstr "menu item"
+
+#: includes/elements/widgets/header-footer/menu.php:2624
+#: includes/elements/widgets/header-footer/menu.php:2847
+#: includes/elements/widgets/header-footer/menu.php:3125
+#: includes/elements/widgets/header-footer/menu.php:3348
+#: includes/elements/widgets/header-footer/menu.php:3641
+#: includes/elements/widgets/header-footer/menu.php:3864
+#: includes/elements/widgets/header-footer/menu.php:4143
+#: includes/elements/widgets/header-footer/menu.php:4366
+msgid "فاصله آیکن فلش از بالا"
+msgstr "arrow margin top"
+
+#: includes/elements/widgets/header-footer/menu.php:2740
+#: includes/elements/widgets/header-footer/menu.php:2963
+#: includes/elements/widgets/header-footer/menu.php:3241
+#: includes/elements/widgets/header-footer/menu.php:3464
+#: includes/elements/widgets/header-footer/menu.php:3757
+#: includes/elements/widgets/header-footer/menu.php:3981
+#: includes/elements/widgets/header-footer/menu.php:4259
+#: includes/elements/widgets/header-footer/menu.php:4483
+msgid "فاصله داخلی متن منو"
+msgstr "menu text padding"
+
+#: includes/elements/widgets/header-footer/menu.php:2813
+#: includes/elements/widgets/header-footer/menu.php:3314
+msgid "آیتم منو (فعال)"
+msgstr "menu item (enabled)"
+
+#: includes/elements/widgets/header-footer/menu.php:3282
+#: includes/elements/widgets/header-footer/menu.php:4300
+msgid "فعال دارک"
+msgstr "active in dark"
+
+#: includes/elements/widgets/header-footer/menu.php:3510
+msgid "زیرمنو (موبایل)"
+msgstr "submenu (mobile)"
+
+#: includes/elements/widgets/header-footer/menu.php:3830
+#: includes/elements/widgets/header-footer/menu.php:4332
+msgid "آیتم زیرمنو (فعال)"
+msgstr "Submenu item (active)"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:16
+msgid "نیوز تیکر"
+msgstr "news ticker"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:47
+msgid "بیشتر بخوانید"
+msgstr "read more"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:48
+msgid "عنوان نیوزتیکر را وارد کنید"
+msgstr "Enter the title of the news ticker"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:55
+msgid "آیکن موبایل"
+msgstr "Mobile icon"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:92
+msgid "سرعت حرکت"
+msgstr "Movement speed"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:136
+msgid "استایل عنوان (عادی)"
+msgstr "Title Style (Normal)"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:207
+#: includes/elements/widgets/header-footer/news-ticker.php:399
+msgid "تایپوگرافی پست"
+msgstr "Post typography"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:214
+#: includes/elements/widgets/header-footer/news-ticker.php:406
+#: includes/elements/widgets/single-archive/next-prev.php:75
+#: includes/elements/widgets/single-archive/next-prev.php:174
+msgid "رنگ پست"
+msgstr "post color"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:224
+#: includes/elements/widgets/header-footer/news-ticker.php:416
+msgid "رنگ پست در هاور"
+msgstr "color of the post in Hover"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:240
+#: includes/elements/widgets/header-footer/news-ticker.php:432
+msgid "رنگ سایه حاشیه راست"
+msgstr "Right shadow color"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:250
+#: includes/elements/widgets/header-footer/news-ticker.php:442
+msgid "رنگ سایه حاشیه چپ"
+msgstr "Left shadow color"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:261
+msgid "استایل باکس کلی (عادی)"
+msgstr "General style box (normal)"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:328
+msgid "استایل عنوان (دارک مود)"
+msgstr "Title style (dark mode)"
+
+#: includes/elements/widgets/header-footer/news-ticker.php:453
+msgid "استایل باکس کلی (دارک مود)"
+msgstr "General style box (dark mode)"
+
+#: includes/elements/widgets/header-footer/posts-thumbs.php:17
+msgid "بنر پست ها"
+msgstr "Posts banner"
+
+#: includes/elements/widgets/header-footer/posts-thumbs.php:134
+#: includes/elements/widgets/header-footer/posts-thumbs.php:280
+msgid "رنگ هاور عنوان"
+msgstr "Title hover color"
+
+#: includes/elements/widgets/header-footer/posts-thumbs.php:173
+#: includes/elements/widgets/header-footer/posts-thumbs.php:319
+msgid "پس زمینه تاریخ"
+msgstr "Date background"
+
+#: includes/elements/widgets/header-footer/posts-thumbs.php:183
+#: includes/elements/widgets/header-footer/posts-thumbs.php:329
+#: includes/elements/widgets/single-archive/author-box.php:103
+#: includes/elements/widgets/single-archive/author-box.php:210
+#: includes/elements/widgets/single-archive/breadcrumb.php:153
+#: includes/elements/widgets/single-archive/breadcrumb.php:270
+#: includes/elements/widgets/single-archive/next-prev.php:96
+#: includes/elements/widgets/single-archive/next-prev.php:195
+#: includes/elements/widgets/single-archive/tags.php:170
+#: includes/elements/widgets/single-archive/tags.php:423
+msgid "باکس کلی"
+msgstr "main box"
+
+#: includes/elements/widgets/header-footer/search.php:12
+msgid "فرم جستجو"
+msgstr "Search form"
+
+#: includes/elements/widgets/header-footer/search.php:39
+msgid "مینیمال"
+msgstr "minimal"
+
+#: includes/elements/widgets/header-footer/search.php:40
+msgid "کلاسیک"
+msgstr "classic"
+
+#: includes/elements/widgets/header-footer/search.php:80
+msgid "بخش اول عنوان جستجو"
+msgstr "first part of the search title"
+
+#: includes/elements/widgets/header-footer/search.php:82
+msgid ":: برای جستجو"
+msgstr ":: Type for"
+
+#: includes/elements/widgets/header-footer/search.php:91
+msgid "بخش دوم عنوان جستجو"
+msgstr "second part of the search title"
+
+#: includes/elements/widgets/header-footer/search.php:93
+msgid "تایپ"
+msgstr "search"
+
+#: includes/elements/widgets/header-footer/search.php:102
+msgid "بخش سوم عنوان جستجو"
+msgstr "thrid part of the search title"
+
+#: includes/elements/widgets/header-footer/search.php:104
+msgid "کنید ::"
+msgstr "please ::"
+
+#: includes/elements/widgets/header-footer/search.php:122
+msgid "متن فرم جستجو"
+msgstr "Search form text"
+
+#: includes/elements/widgets/header-footer/search.php:124
+msgid "جستجو ..."
+msgstr "search ..."
+
+#: includes/elements/widgets/header-footer/search.php:367
+msgid "استایل باکس کلی جستجو (عادی)"
+msgstr "General search box style (normal)"
+
+#: includes/elements/widgets/header-footer/search.php:422
+msgid "رنگ اصلی باکس جستجو"
+msgstr "The main color of the search box"
+
+#: includes/elements/widgets/header-footer/search.php:628
+#: includes/elements/widgets/single-archive/share.php:418
+msgid "استایل باکس آیکن (دارک مود)"
+msgstr "Icon style box (dark mode)"
+
+#: includes/elements/widgets/header-footer/simple-icon.php:10
+msgid "آیکن ساده"
+msgstr "Simple icon"
+
+#: includes/elements/widgets/header-footer/simple-icon.php:51
+#: includes/elements/widgets/icon-link.php:91
+#: includes/elements/widgets/links.php:61
+msgid "لینک"
+msgstr "link"
+
+#: includes/elements/widgets/header-footer/simple-icon.php:53
+#: includes/elements/widgets/icon-link.php:93
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:18
+msgid "سایدبار چسبنده"
+msgstr "Sticky sidebar"
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:61
+msgid "نمایش منو در موبایل"
+msgstr "Show menu on mobile"
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:76
+msgid "منو در حالت موبایل"
+msgstr "Menu in mobile mode"
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:116
+msgid "نمایش تمپلیت"
+msgstr "use template"
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:130
+msgid "تمپلیت"
+msgstr "template"
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:174
+msgid "از کدام سمت باز شود؟"
+msgstr "Which side to open?"
+
+#: includes/elements/widgets/header-footer/sticky-sidebar.php:260
+msgid "انتخاب آیکن"
+msgstr "Select icon"
+
+#: includes/elements/widgets/heading.php:10
+msgid "سرتیتر"
+msgstr "Heading"
+
+#: includes/elements/widgets/heading.php:40
+#: includes/elements/widgets/icon-link.php:40
+msgid "نمونه عنوان"
+msgstr "Title example"
+
+#: includes/elements/widgets/hero-1.php:16
+msgid "پست هیرو 1"
+msgstr "Posts Hero 1"
+
+#: includes/elements/widgets/hero-1.php:72
+msgid "طرح بندی آجری"
+msgstr "masonry layout"
+
+#: includes/elements/widgets/hero-1.php:76
+msgid "آجری نباشد"
+msgstr "no masonry"
+
+#: includes/elements/widgets/hero-1.php:249
+msgid "عنوان تک خطی"
+msgstr "single-line title"
+
+#: includes/elements/widgets/hero-1.php:289
+msgid "ارتفاع چکیده"
+msgstr "excerpt height"
+
+#: includes/elements/widgets/icon-link.php:10
+msgid "لینک آیکن"
+msgstr "icon link"
+
+#: includes/elements/widgets/icon-link.php:67
+msgid "نمایش دکمه"
+msgstr "Show button"
+
+#: includes/elements/widgets/icon-link.php:78
+msgid "عنوان دکمه"
+msgstr "button title"
+
+#: includes/elements/widgets/icon-link.php:80
+msgid "مشاهده همه"
+msgstr "View All"
+
+#: includes/elements/widgets/icon-link.php:138
+msgid "تایپوگرافی دکمه"
+msgstr "Button typography"
+
+#: includes/elements/widgets/icon-link.php:147
+#: includes/elements/widgets/single-archive/next-prev.php:63
+#: includes/elements/widgets/single-archive/next-prev.php:162
+msgid "رنگ اصلی"
+msgstr "main color"
+
+#: includes/elements/widgets/icon-link.php:159
+msgid "باکس اصلی"
+msgstr "main box"
+
+#: includes/elements/widgets/links.php:10
+msgid "لینک ها"
+msgstr "Links"
+
+#: includes/elements/widgets/links.php:41
+msgid "طرح یک"
+msgstr "layout 1"
+
+#: includes/elements/widgets/links.php:42
+msgid "طرح دو"
+msgstr "layout 2"
+
+#: includes/elements/widgets/links.php:43
+msgid "طرح سه"
+msgstr "layout 3"
+
+#: includes/elements/widgets/links.php:44
+msgid "طرح چهار"
+msgstr "layout 4"
+
+#: includes/elements/widgets/links.php:55
+msgid "عنوان لینک"
+msgstr "Link title"
+
+#: includes/elements/widgets/links.php:63
+msgid "آدرس لینک"
+msgstr "url"
+
+#: includes/elements/widgets/links.php:71
+msgid "لیست لینک ها"
+msgstr "List of links"
+
+#: includes/elements/widgets/links.php:76
+msgid "لینک اول"
+msgstr "First link"
+
+#: includes/elements/widgets/links.php:77
+#: includes/elements/widgets/links.php:81
+msgid "#"
+msgstr ""
+
+#: includes/elements/widgets/links.php:80
+msgid "لینک دوم"
+msgstr "Second link"
+
+#: includes/elements/widgets/list-1.php:16
+msgid "پست لیست 1"
+msgstr "Posts list 1"
+
+#: includes/elements/widgets/list-1.php:92
+#: includes/elements/widgets/list-2.php:92
+msgid "موقعیت تصویر"
+msgstr "Image position"
+
+#: includes/elements/widgets/list-1.php:140
+#: includes/elements/widgets/list-2.php:142
+#: includes/elements/widgets/list-3.php:130
+#: includes/elements/widgets/video-play-list.php:594
+#: includes/elements/widgets/video-play-list.php:1570
+#: includes/settings/settings-404.php:135
+msgid "عرض تصویر"
+msgstr "Image width"
+
+#: includes/elements/widgets/list-2.php:16
+msgid "پست لیست 2"
+msgstr "Posts list 2"
+
+#: includes/elements/widgets/list-3.php:16
+msgid "پست لیست 3"
+msgstr "Posts list 3"
+
+#: includes/elements/widgets/single-archive/author-box.php:10
+msgid "باکس نویسنده"
+msgstr "Author box"
+
+#: includes/elements/widgets/single-archive/author-box.php:64
+#: includes/elements/widgets/single-archive/author-box.php:171
+msgid "تایپوگرافی نام نویسنده"
+msgstr "Author's name typography"
+
+#: includes/elements/widgets/single-archive/author-box.php:71
+#: includes/elements/widgets/single-archive/author-box.php:178
+msgid "رنگ نام نویسنده"
+msgstr "Author's name color"
+
+#: includes/elements/widgets/single-archive/author-box.php:82
+#: includes/elements/widgets/single-archive/author-box.php:189
+#: includes/settings/settings-404.php:240
+msgid "تایپوگرافی توضیحات"
+msgstr "Description typography"
+
+#: includes/elements/widgets/single-archive/author-box.php:89
+#: includes/elements/widgets/single-archive/author-box.php:196
+msgid "رنگ توضیحات"
+msgstr "Description color"
+
+#: includes/elements/widgets/single-archive/author-box.php:129
+#: includes/elements/widgets/single-archive/author-box.php:236
+#: includes/elements/widgets/single-archive/categories.php:127
+#: includes/elements/widgets/single-archive/categories.php:207
+#: includes/elements/widgets/single-archive/categories.php:288
+#: includes/elements/widgets/single-archive/categories.php:368
+#: includes/elements/widgets/single-archive/next-prev.php:122
+#: includes/elements/widgets/single-archive/next-prev.php:221
+#: includes/elements/widgets/single-archive/tags.php:139
+#: includes/elements/widgets/single-archive/tags.php:196
+#: includes/elements/widgets/single-archive/tags.php:281
+#: includes/elements/widgets/single-archive/tags.php:392
+#: includes/elements/widgets/single-archive/tags.php:449
+#: includes/elements/widgets/single-archive/tags.php:534
+msgid "سایه کادر"
+msgstr "box shadow"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:10
+msgid "بریدکرامب (مسیر صفحه)"
+msgstr "Bradcrumbs"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:39
+msgid "متن شروع"
+msgstr "Start text"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:41
+msgid "صفحه اصلی"
+msgstr "Home"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:47
+msgid "جدا کننده"
+msgstr "Separator"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:49
+msgid " > "
+msgstr " < "
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:104
+#: includes/elements/widgets/single-archive/breadcrumb.php:221
+#: includes/settings/settings-404.php:65
+msgid "متن"
+msgstr "Text"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:113
+#: includes/elements/widgets/single-archive/breadcrumb.php:230
+#: includes/elements/widgets/single-archive/meta-data.php:170
+msgid "تایپوگرافی متن"
+msgstr "Text typography"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:120
+#: includes/elements/widgets/single-archive/breadcrumb.php:237
+#: includes/elements/widgets/single-archive/meta-data.php:177
+msgid "رنگ متن"
+msgstr "Text color"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:131
+#: includes/elements/widgets/single-archive/breadcrumb.php:248
+msgid "رنگ لینک ها"
+msgstr "Links color"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:142
+#: includes/elements/widgets/single-archive/breadcrumb.php:259
+msgid "رنگ هاور لینک ها"
+msgstr "Links color in hover"
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:361
+msgid " و "
+msgstr " and "
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:364
+#: includes/elements/widgets/single-archive/breadcrumb.php:366
+#: includes/elements/widgets/single-archive/breadcrumb.php:368
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:366
+msgctxt "فرمت تاریخ آرشیو ماهانه"
+msgid "F Y"
+msgstr ""
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:368
+msgctxt "فرمت تاریخ آرشیو سالانه"
+msgid "Y"
+msgstr ""
+
+#: includes/elements/widgets/single-archive/breadcrumb.php:370
+msgid "آرشیو وبلاگ"
+msgstr "Blog archive"
+
+#: includes/elements/widgets/single-archive/categories.php:89
+#: includes/elements/widgets/single-archive/categories.php:169
+#: includes/elements/widgets/single-archive/categories.php:250
+#: includes/elements/widgets/single-archive/categories.php:330
+msgid "تایپوگرافی دسته"
+msgstr "category typography"
+
+#: includes/elements/widgets/single-archive/categories.php:96
+#: includes/elements/widgets/single-archive/categories.php:176
+#: includes/elements/widgets/single-archive/categories.php:257
+#: includes/elements/widgets/single-archive/categories.php:337
+msgid "رنگ متن دسته"
+msgstr "Category text color"
+
+#: includes/elements/widgets/single-archive/categories.php:107
+#: includes/elements/widgets/single-archive/categories.php:187
+#: includes/elements/widgets/single-archive/categories.php:268
+#: includes/elements/widgets/single-archive/categories.php:348
+msgid "رنگ زمینه دسته"
+msgstr "category background color"
+
+#: includes/elements/widgets/single-archive/comments.php:10
+msgid "نظرات"
+msgstr "Comments"
+
+#: includes/elements/widgets/single-archive/featured-image.php:10
+#: includes/settings/settings-post-single.php:92
+msgid "تصویر شاخص"
+msgstr "featured image"
+
+#: includes/elements/widgets/single-archive/featured-image.php:39
+msgid "نوع شاخص"
+msgstr "featured type"
+
+#: includes/elements/widgets/single-archive/featured-image.php:43
+msgid "فقط تصویر"
+msgstr "just image"
+
+#: includes/elements/widgets/single-archive/featured-image.php:44
+msgid "تصویر و پست فرمت"
+msgstr "image and post format"
+
+#: includes/elements/widgets/single-archive/featured-image.php:45
+msgid "فقط پست فرمت"
+msgstr "just post format"
+
+#: includes/elements/widgets/single-archive/featured-image.php:61
+msgid "در موبایل"
+msgstr "on mobile"
+
+#: includes/elements/widgets/single-archive/meta-data.php:10
+msgid "متا داده"
+msgstr "Metadata"
+
+#: includes/elements/widgets/single-archive/meta-data.php:39
+msgid "آیکن تاریخ"
+msgstr "Date Icon"
+
+#: includes/elements/widgets/single-archive/meta-data.php:51
+msgid "آیکن دیدگاه ها"
+msgstr "Comments icon"
+
+#: includes/elements/widgets/single-archive/meta-data.php:63
+msgid "نمایش نویسنده"
+msgstr "display author"
+
+#: includes/elements/widgets/single-archive/meta-data.php:74
+msgid "متن قبل از نویسنده"
+msgstr "Text before the author"
+
+#: includes/elements/widgets/single-archive/meta-data.php:91
+msgid "نمایش تاریخ"
+msgstr "display date"
+
+#: includes/elements/widgets/single-archive/meta-data.php:102
+msgid "متن قبل از تاریخ"
+msgstr "Text before the date"
+
+#: includes/elements/widgets/single-archive/meta-data.php:111
+msgid "متن بعد از تاریخ"
+msgstr "Text after the date"
+
+#: includes/elements/widgets/single-archive/meta-data.php:145
+msgid "نمایش دیدگاه ها"
+msgstr "Display comments"
+
+#: includes/elements/widgets/single-archive/meta-data.php:198
+msgid "تایپوگرافی آیکن ها"
+msgstr "icons typography"
+
+#: includes/elements/widgets/single-archive/meta-data.php:205
+msgid "رنگ آیکن ها"
+msgstr "Icon color"
+
+#: includes/elements/widgets/single-archive/meta-data.php:215
+msgid "رنگ آیکن ها (دارک مود)"
+msgstr "Icon color (dark mode)"
+
+#: includes/elements/widgets/single-archive/next-prev.php:10
+msgid "پست بعدی/قبلی"
+msgstr "Next/Previous post"
+
+#: includes/elements/widgets/single-archive/next-prev.php:85
+#: includes/elements/widgets/single-archive/next-prev.php:184
+msgid "رنگ زمینه پست"
+msgstr "Post background color"
+
+#: includes/elements/widgets/single-archive/next-prev.php:272
+msgid "پست قبلی"
+msgstr "Previous post"
+
+#: includes/elements/widgets/single-archive/next-prev.php:273
+msgid "پست بعدی"
+msgstr "Next post"
+
+#: includes/elements/widgets/single-archive/share.php:10
+#: includes/elements/widgets/single-archive/share.php:667
+msgid "اشتراک گذاری"
+msgstr "Share"
+
+#: includes/elements/widgets/single-archive/share.php:675
+msgid ""
+"با استفاده از روش‌های زیر می‌توانید این صفحه را با دوستان خود به اشتراک "
+"بگذارید."
+msgstr "You can share this page with your friends using the following methods."
+
+#: includes/elements/widgets/single-archive/tags.php:10
+#: includes/elements/widgets/single-archive/tags.php:95
+#: includes/elements/widgets/single-archive/tags.php:237
+#: includes/elements/widgets/single-archive/tags.php:348
+#: includes/elements/widgets/single-archive/tags.php:490
+#: includes/settings/settings-post-single.php:442
+msgid "برچسب ها"
+msgstr "Tags"
+
+#: includes/elements/widgets/single-archive/tags.php:41
+msgid "برچسب ها : "
+msgstr "Tags : "
+
+#: includes/elements/widgets/single-archive/tags.php:104
+#: includes/elements/widgets/single-archive/tags.php:246
+#: includes/elements/widgets/single-archive/tags.php:357
+#: includes/elements/widgets/single-archive/tags.php:499
+msgid "تایپوگرافی برچسب"
+msgstr "tag typography"
+
+#: includes/elements/widgets/single-archive/tags.php:111
+#: includes/elements/widgets/single-archive/tags.php:253
+#: includes/elements/widgets/single-archive/tags.php:364
+#: includes/elements/widgets/single-archive/tags.php:506
+msgid "رنگ برچسب"
+msgstr "tag color"
+
+#: includes/elements/widgets/video-play-list.php:17
+#: includes/elements/widgets/video-play-list.php:50
+msgid "لیست پخش ویدیو"
+msgstr "Video Playlis"
+
+#: includes/elements/widgets/video-play-list.php:48
+msgid "عنوان لیست پخش"
+msgstr "playlist title"
+
+#: includes/elements/widgets/video-play-list.php:57
+msgid "نوع منبع"
+msgstr "source type"
+
+#: includes/elements/widgets/video-play-list.php:60
+msgid "دستی"
+msgstr "custom"
+
+#: includes/elements/widgets/video-play-list.php:61
+msgid "پست ها"
+msgstr "Posts"
+
+#: includes/elements/widgets/video-play-list.php:104
+msgid "نمونه یک عنوان ویدیو"
+msgstr "example of a video title"
+
+#: includes/elements/widgets/video-play-list.php:116
+msgid "هاست خودتان"
+msgstr "your host"
+
+#: includes/elements/widgets/video-play-list.php:117
+msgid "آپارات"
+msgstr "aparat"
+
+#: includes/elements/widgets/video-play-list.php:126
+msgid "آی فریم"
+msgstr "iframe"
+
+#: includes/elements/widgets/video-play-list.php:131
+msgid "آی فریم ویدیو را وارد کنید"
+msgstr "insert video iframe"
+
+#: includes/elements/widgets/video-play-list.php:144
+msgid "آدرس خارجی"
+msgstr "external url"
+
+#: includes/elements/widgets/video-play-list.php:155
+msgid "انتخاب فایل"
+msgstr "choose file"
+
+#: includes/elements/widgets/video-play-list.php:174
+msgid "آدرس"
+msgstr "url"
+
+#: includes/elements/widgets/video-play-list.php:188
+msgid "آدرس ویدیو را وارد کنید"
+msgstr "enter video url"
+
+#: includes/elements/widgets/video-play-list.php:199
+msgid "پوستر ویدیو"
+msgstr "video poster"
+
+#: includes/elements/widgets/video-play-list.php:214
+msgid "تصویر کوچک"
+msgstr "thumbnail"
+
+#: includes/elements/widgets/video-play-list.php:229
+msgid "زمان ویدیو"
+msgstr "video duration"
+
+#: includes/elements/widgets/video-play-list.php:239
+#: includes/elements/widgets/video-play-list.php:402
+#: includes/elements/widgets/video-play-list.php:1378
+msgid "لیست ویدیو ها"
+msgstr "list of videos"
+
+#: includes/elements/widgets/video-play-list.php:245
+msgid "ویژگی های قالب هاریکا"
+msgstr "harika theme features"
+
+#: includes/elements/widgets/video-play-list.php:261
+#: includes/settings/settings-more.php:38
+msgid "تنظیمات بیشتر"
+msgstr "more options"
+
+#: includes/elements/widgets/video-play-list.php:269
+msgid "آیکن لیست پخش"
+msgstr "playlist icon"
+
+#: includes/elements/widgets/video-play-list.php:278
+msgid "آیکن عنوان ویدیو ها"
+msgstr "playlist title icon"
+
+#: includes/elements/widgets/video-play-list.php:298
+msgid "استایل (عادی)"
+msgstr "style (normal)"
+
+#: includes/elements/widgets/video-play-list.php:309
+msgid "عمومی"
+msgstr "general"
+
+#: includes/elements/widgets/video-play-list.php:338
+msgid "ارتفاع لیست پخش"
+msgstr "playlist height"
+
+#: includes/elements/widgets/video-play-list.php:370
+msgid "نمایش اسکرول"
+msgstr "display scroll"
+
+#: includes/elements/widgets/video-play-list.php:372
+msgid "بله"
+msgstr "yes"
+
+#: includes/elements/widgets/video-play-list.php:373
+msgid "خیر"
+msgstr "no"
+
+#: includes/elements/widgets/video-play-list.php:382
+msgid "فاصله بین لیست و ویدیو"
+msgstr "margin between video and list"
+
+#: includes/elements/widgets/video-play-list.php:461
+#: includes/elements/widgets/video-play-list.php:1437
+msgid "عنوان لیست"
+msgstr "list title"
+
+#: includes/elements/widgets/video-play-list.php:586
+#: includes/elements/widgets/video-play-list.php:1562
+msgid "آیتم ویدیو"
+msgstr "video item"
+
+#: includes/elements/widgets/video-play-list.php:651
+#: includes/elements/widgets/video-play-list.php:1627
+msgid "فاصله بین آیتم ها"
+msgstr "items gap"
+
+#: includes/elements/widgets/video-play-list.php:669
+#: includes/elements/widgets/video-play-list.php:1645
+msgid "فاصله بین تصویر و عنوان"
+msgstr "image and title gap"
+
+#: includes/elements/widgets/video-play-list.php:961
+#: includes/elements/widgets/video-play-list.php:1937
+msgid "ویدیو (کلی)"
+msgstr "video (general)"
+
+#: includes/elements/widgets/video-play-list.php:1022
+#: includes/elements/widgets/video-play-list.php:1998
+msgid "فاصله آیکن از عنوان"
+msgstr "icon margin from title"
+
+#: includes/elements/widgets/video-play-list.php:1040
+#: includes/elements/widgets/video-play-list.php:2016
+msgid "فاصله داخلی عنوان ویدیو"
+msgstr "video title padding"
+
+#: includes/elements/widgets/video-play-list.php:1054
+#: includes/elements/widgets/video-play-list.php:2030
+msgid "ویدیو (زمان ویدیو)"
+msgstr "video (duration)"
+
+#: includes/elements/widgets/video-play-list.php:1140
+#: includes/elements/widgets/video-play-list.php:2116
+msgid "ویدیو (پخش کننده)"
+msgstr "video(player)"
+
+#: includes/elements/widgets/video-play-list.php:1148
+#: includes/elements/widgets/video-play-list.php:2124
+msgid "رنگ اصلی پخش کننده"
+msgstr "player main color"
+
+#: includes/elements/widgets/video-play-list.php:1160
+#: includes/elements/widgets/video-play-list.php:2136
+msgid "شعاع پخش کننده"
+msgstr "player border-radius"
+
+#: includes/elements/widgets/video-play-list.php:1180
+#: includes/elements/widgets/video-play-list.php:2156
+msgid "عرض دکمه پخش کننده"
+msgstr "player btn width"
+
+#: includes/elements/widgets/video-play-list.php:1205
+#: includes/elements/widgets/video-play-list.php:2181
+msgid "ارتفاع دکمه پخش کننده"
+msgstr "player btn height"
+
+#: includes/elements/widgets/video-play-list.php:1230
+#: includes/elements/widgets/video-play-list.php:2206
+msgid "شعاع دکمه"
+msgstr "btn border-radius"
+
+#: includes/elements/widgets/video-play-list.php:1243
+#: includes/elements/widgets/video-play-list.php:2219
+msgid "رنگ دکمه"
+msgstr "btn color"
+
+#: includes/elements/widgets/video-play-list.php:1255
+#: includes/elements/widgets/video-play-list.php:2231
+msgid "رنگ دکمه در هاور"
+msgstr "btn color in hover"
+
+#: includes/elements/widgets/video-play-list.php:1271
+#: includes/elements/widgets/video-play-list.php:2247
+msgid "زمینه ابزارک"
+msgstr "widget background"
+
+#: includes/elements/widgets/video-play-list.php:1330
+#: includes/elements/widgets/video-play-list.php:2306
+msgid "نوار اسکرول"
+msgstr "scroll bar"
+
+#: includes/elements/widgets/video-play-list.php:1338
+#: includes/elements/widgets/video-play-list.php:2314
+msgid "رنگ نوار"
+msgstr "bar color"
+
+#: includes/elements/widgets/video-play-list.php:1349
+#: includes/elements/widgets/video-play-list.php:2325
+msgid "رنگ غلتک"
+msgstr "toggle color"
+
+#: includes/elements/widgets/video-play-list.php:1367
+msgid "استایل (دارک مود)"
+msgstr "style (dark mode)"
+
+#: includes/megamenu/include/admin/include/class.settings-api.php:373
+msgid "Choose File"
+msgstr ""
+
+#: includes/megamenu/include/class.mega-menu.php:75
+msgid "تنظیمات مگامنو"
+msgstr "mega menu settings"
+
+#: includes/megamenu/include/class.mega-menu.php:103
+msgid "فعالسازی مگامنو؟"
+msgstr "Megamanu activation?"
+
+#: includes/megamenu/include/class.mega-menu.php:107
+#: includes/megamenu/include/class.mega-menu.php:225
+msgid "ذخیره"
+msgstr "Save"
+
+#: includes/megamenu/include/class.mega-menu.php:139
+msgid "Successfully data saved"
+msgstr ""
+
+#: includes/megamenu/include/class.mega-menu.php:226
+msgid "در حال ذخیره کردن …"
+msgstr "Saving…"
+
+#: includes/megamenu/include/class.mega-menu.php:227
+msgid "تمامی داده ها ذخیره شدند"
+msgstr "All data was saved"
+
+#: includes/megamenu/include/helper-function.php:13
+msgid "HARIKA Mega Menu"
+msgstr ""
+
+#: includes/megamenu/include/helper-function.php:33
+msgid "تمپلیت ذخیره شده ای وجود ندارد."
+msgstr "There are no saved templates."
+
+#: includes/megamenu/include/helper-function.php:35
+msgid "انتخاب تمپلیت"
+msgstr "Choose a template"
+
+#: includes/settings/settings-404.php:17
+msgid "صفحه خطای 404"
+msgstr "error page 404"
+
+#: includes/settings/settings-404.php:38
+msgid "صفحه 404"
+msgstr "Page 404"
+
+#: includes/settings/settings-404.php:46
+msgid "محتوای صفحه"
+msgstr "Page content"
+
+#: includes/settings/settings-404.php:53
+msgid "عنوان صفحه"
+msgstr "page title"
+
+#: includes/settings/settings-404.php:55
+msgid "صفحه یافت نشد!"
+msgstr "Page not found!"
+
+#: includes/settings/settings-404.php:63 includes/settings/settings-404.php:77
+msgid "404"
+msgstr ""
+
+#: includes/settings/settings-404.php:66
+msgid "تصویر"
+msgstr "Image"
+
+#: includes/settings/settings-404.php:75
+msgid "متن خطا"
+msgstr "Error text"
+
+#: includes/settings/settings-404.php:87
+msgid "انتخاب تصویر"
+msgstr "Select image"
+
+#: includes/settings/settings-404.php:117
+msgid "توضیحات"
+msgstr "Description"
+
+#: includes/settings/settings-404.php:119
+msgid "به نظر می رسد محتوایی که به دنبال آن هستید یافت نشد."
+msgstr "It looks like the content you are looking for was not found."
+
+#: includes/settings/settings-404.php:127
+msgid "استایل محتوا"
+msgstr "Content style"
+
+#: includes/settings/settings-404.php:229
+msgid "تایپوگرافی متن خطا"
+msgstr "Typography text error"
+
+#: includes/settings/settings-archive-and-search.php:17
+msgid "آرشیو و جستجو"
+msgstr "Archive and search"
+
+#: includes/settings/settings-archive-and-search.php:38
+msgid "صفحه آرشیو و جستجو"
+msgstr "Archive and search pages"
+
+#: includes/settings/settings-archive-and-search.php:46
+msgid "آرشیو ها"
+msgstr "Archives"
+
+#: includes/settings/settings-archive-and-search.php:54
+#: includes/settings/settings-post-single.php:81
+msgid "سایدبار"
+msgstr "sidebar"
+
+#: includes/settings/settings-archive-and-search.php:65
+msgid "تصویر پست"
+msgstr "Post image"
+
+#: includes/settings/settings-archive-and-search.php:73
+msgid "عرض تصویر پست"
+msgstr "Post image width"
+
+#: includes/settings/settings-archive-and-search.php:98
+msgid "ارتفاع تصویر پست"
+msgstr "Post image height"
+
+#: includes/settings/settings-archive-and-search.php:161
+msgid "محتوای پست"
+msgstr "Post content"
+
+#: includes/settings/settings-archive-and-search.php:196
+#: includes/settings/settings-post-single.php:390
+msgid "متا پست"
+msgstr "Post meta"
+
+#: includes/settings/settings-boxes.php:17
+msgid "باکس ها"
+msgstr "Boxes"
+
+#: includes/settings/settings-boxes.php:38
+msgid "باکس های صفحات داخلی"
+msgstr "inner page boxes"
+
+#: includes/settings/settings-boxes.php:46
+msgid "باکس های محتوا"
+msgstr "Content boxes"
+
+#: includes/settings/settings-boxes.php:138
+msgid "باکس های سایدبار"
+msgstr "Sidebar boxes"
+
+#: includes/settings/settings-footer.php:38
+#: includes/settings/settings-header.php:40
+#: includes/settings/settings-post-single.php:34
+msgid "پیش فرض قالب"
+msgstr "Theme Default"
+
+#: includes/settings/settings-footer.php:62
+msgid "انتخاب فوتر پیش فرض"
+msgstr "Choose the default footer"
+
+#: includes/settings/settings-footer.php:93
+msgid "یک فوتر سفارشی با چندین گزینه ایجاد کنید"
+msgstr "Create a custom footer with multiple options"
+
+#: includes/settings/settings-footer.php:94
+#: includes/settings/settings-header.php:98
+msgid ""
+"به المنتور پرو ارتقا دهید و از طراحی رایگان و بسیاری از ویژگی های دیگر لذت "
+"ببرید"
+msgstr "Upgrade to Elementor Pro and enjoy free design and many more features"
+
+#: includes/settings/settings-footer.php:95
+#: includes/settings/settings-header.php:99
+msgid "ارتقا"
+msgstr "Upgrade"
+
+#: includes/settings/settings-footer.php:109
+msgid "فوتر خود را با استفاده از صفحه ساز بسازید"
+msgstr "Create your own footer using page builder"
+
+#: includes/settings/settings-footer.php:110
+msgid "المان ها را جا به جا کنید و فوتر سفارشی خود را طراحی کنید."
+msgstr "Move the elements and design your custom footer."
+
+#: includes/settings/settings-footer.php:111
+msgid "ایجاد فوتر"
+msgstr "Create a footer"
+
+#: includes/settings/settings-header.php:64
+msgid "انتخاب هدر پیش فرض"
+msgstr "Choose the default header"
+
+#: includes/settings/settings-header.php:97
+msgid "یک هدر سفارشی با چندین گزینه ایجاد کنید"
+msgstr "Create a custom header with multiple options"
+
+#: includes/settings/settings-header.php:113
+msgid "هدر خود را با استفاده از صفحه ساز بسازید"
+msgstr "Create your own header using the page builder"
+
+#: includes/settings/settings-header.php:114
+msgid "المان ها را جا به جا کنید و هدر سفارشی خود را طراحی کنید."
+msgstr "Move the elements around and design your custom header."
+
+#: includes/settings/settings-header.php:115
+msgid "ایجاد هدر"
+msgstr "Create a header"
+
+#: includes/settings/settings-more.php:17
+msgid "بیشتر ..."
+msgstr "More ..."
+
+#: includes/settings/settings-more.php:46
+msgid "عنوان ابزارک های سایدبار"
+msgstr "Sidebar widgets title"
+
+#: includes/settings/settings-more.php:56
+msgid "یک"
+msgstr "one"
+
+#: includes/settings/settings-more.php:57
+msgid "دو"
+msgstr "two"
+
+#: includes/settings/settings-more.php:58
+msgid "سه"
+msgstr "three"
+
+#: includes/settings/settings-more.php:59
+msgid "چهار"
+msgstr "four"
+
+#: includes/settings/settings-post-single.php:17
+msgid "سینگل پست"
+msgstr "Posts single"
+
+#: includes/settings/settings-post-single.php:50
+msgid "انتخاب طرح سینگل"
+msgstr "Choose single layout"
+
+#: includes/settings/settings-post-single.php:58
+msgid "انتخاب سینگل پیش فرض"
+msgstr "Choose default single"
+
+#: includes/settings/settings-post-single.php:70
+msgid "سینگل پیش فرض قالب"
+msgstr "theme default single"
+
+#: includes/settings/settings-post-single.php:100
+msgid "حداکثر ارتفاع تصویر شاخص"
+msgstr "Maximum height of the index image"
+
+#: includes/settings/settings-post-single.php:125
+msgid "ارتفاع تصویر شاخص"
+msgstr "The height of the index image"
+
+#: includes/settings/settings-post-single.php:204
+msgid "رنگ عنوان پست"
+msgstr "Post title color"
+
+#: includes/settings/settings-post-single.php:215
+msgid "تایپوگرافی عنوان پست"
+msgstr "Post title typography"
+
+#: includes/settings/settings-post-single.php:224
+msgid "فضای داخلی عنوان پست"
+msgstr "post title padding"
+
+#: includes/settings/settings-post-single.php:237
+msgid "دکمه اشتراک گذاری"
+msgstr "Share button"
+
+#: includes/settings/settings-post-single.php:244
+msgid "آیکن اشتراک گذاری"
+msgstr "Share icon"
+
+#: includes/widgets/harika-recentposts-widget.php:35
+msgid "تاریخ انتشار: "
+msgstr "Date: "
+
+#: includes/widgets/harika-recentposts-widget.php:51
+msgid "عنوان:"
+msgstr "Title:"
+
+#: includes/widgets/harika-recentposts-widget.php:56
+msgid "تعداد پست برای نمایش:"
+msgstr "Number of posts:"
+
+#: includes/wp-category-color.php:34
+msgid "رنگ دسته بندی را انتخاب کنید"
+msgstr "Choose a category color"
+
+#: includes/wp-category-color.php:37 includes/wp-category-color.php:64
+msgid ""
+"این رنگ به عنوان پس زمینه متا دسته بندی در بخش های مختلف سایت استفاده می شود."
+msgstr ""
+"This color is used as the background of the meta category in different parts "
+"of the site."
+
+#: includes/wp-category-color.php:58
+msgid "رنگ دسته را انتخاب کنید"
+msgstr "Choose the category color"
+
+#. Theme Name of the plugin/theme
+#: my-functions.php:10
+msgid "هاریکا"
+msgstr "Harika"
+
+#: my-functions.php:50
+msgid "لینک توئیتر"
+msgstr "Twitter link"
+
+#: my-functions.php:51
+msgid "لینک فیس بوک"
+msgstr "Facebook link"
+
+#: my-functions.php:52
+msgid "لینک لینکدین"
+msgstr "LinkedIn link"
+
+#: my-functions.php:53
+msgid "لینک گیت هاب"
+msgstr "GitHub link"
+
+#: my-functions.php:54
+msgid "لینک اینستاگرام"
+msgstr "Instagram link"
+
+#: my-functions.php:55
+msgid "لینک دریبل"
+msgstr "Dribble link"
+
+#: my-functions.php:56
+msgid "لینک بیهانس"
+msgstr "behance link"
+
+#: my-functions.php:57
+msgid "لینک اسکایپ"
+msgstr "Skype link"
+
+#: my-functions.php:143
+msgid "سایدبار عمومی"
+msgstr "General sidebar"
+
+#: my-functions.php:145
+msgid "ابزارک های موجود در اینجا در تمامی سایدبار ها نمایش داده خواهند شد."
+msgstr "Widgets here will be displayed in all sidebars."
+
+#: template-parts/archive.php:50 template-parts/search.php:54
+#: template-parts/single.php:110
+#, php-format
+msgid "نمایش همه پست های %s"
+msgstr "Show all posts by %s"
+
+#: template-parts/header.php:29
+msgid "Home"
+msgstr ""
+
+#: template-parts/search.php:16
+msgid "نتایج جستجو برای: "
+msgstr "Search results for: "
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.rtl-theme.com/author/web-developer/products/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "قالب مجله ای، خبری و وبلاگی ایرانی وردپرس"
+msgstr "Iranian WordPress magazine, news and blog theme"
+
+#~ msgid "ثانیه به جلو"
+#~ msgstr "hamid"

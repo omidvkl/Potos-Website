@@ -1,0 +1,77 @@
+.elementor-panel-menu-item-hello-settings-header{margin-top:15px;border-radius:6px 6px 0 0}.elementor-panel-menu-item-theme-style-form-fields{border-radius:0 0 6px 6px}.hello-elementor.elementor-nerd-box .elementor-nerd-box-icon{margin:0}.hello-elementor.elementor-nerd-box .elementor-nerd-box-message .elementor-nerd-box-title{margin:24px 0 0;font-size:16px}.hello-elementor.elementor-nerd-box .elementor-nerd-box-message .elementor-nerd-box-message{margin:12px 0 0;font-size:11px}.hello-elementor.elementor-nerd-box .elementor-nerd-box-link{margin:24px 0 0}
+@media (max-width: 1439px){
+    .elementor-icons-manager__tab-link {
+        padding: 10px 25px 10px 15px !important;
+    }
+}
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-header, .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-footer, .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-post-single, .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-archive-and-search, .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-404-page, .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-boxes, .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-more {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #2b39be;
+    border-width: 0 3px;
+}
+
+
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-header:before,
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-footer:before,
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-post-single:before,
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-archive-and-search:before,
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-404-page:before,
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-boxes:before,
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-more:before{
+    content: 'هاریکا';
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: #2b39be;
+    width: 50px;
+    padding-bottom: 2px;
+    height: 18px;
+    position: absolute;
+    left: 15px;
+    border-radius: 4px;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-header {
+    margin-top: 30px;
+    border-radius: 6px 6px 0 0;
+    border-top: 3px solid #2b39be;
+}
+
+.elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-more {
+    border-bottom: 3px solid #2b39be;
+}
+
+body.elementor-editor-kit main#elementor-panel-content-wrapper div#elementor-panel-page-menu #elementor-panel-page-menu-content .elementor-panel-menu-group:nth-child(2) {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/*********** LTR ***********/
+
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-header:before,
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-footer:before,
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-post-single:before,
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-archive-and-search:before,
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-404-page:before,
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-boxes:before,
+body:not(.rtl) .elementor-panel-menu-item.elementor-panel-menu-item-harika-settings-more:before{
+    content: 'Harika';
+    padding-top: 2px;
+    right: 15px;
+    left: unset;
+}

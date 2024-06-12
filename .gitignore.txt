@@ -1,0 +1,7 @@
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backup/
+wp-config.php
+wp-config-sample.php
+/backups-dup-lite/
+/wp-content/plugins/duplicator/
